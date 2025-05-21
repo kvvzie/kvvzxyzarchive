@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img class="blackbackground" src="/images/black.jpg">
+    <div id="background-container">
+        <video autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>socials</title>
+    <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js"></script>
+    <script src="/color-thief.umd.js"></script>
+</head>
+<body onload="onPageLoaded()">
+    <div class="container">
+        <div><b>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="/images/pidgeon.gif" width="275" height="125">
+            </a>
+            <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th><a class="coral" href="/">home</a></th>
+                        <th><a class="text" >*</a><a class="coral" href="/socials">socials</a></th>
+                        <th><a class="coral" href="/code-credit">code credit</a></th>
+                        <th><a class="coral" href="/spying">spying</a></th>
+                        <th><a class="coral" href="/pictures">pictures</a></th>
+                    </tr>
+                </thead>
+            </table>
+            <br><br>
+        </div>
+    
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const textElement = document.getElementById("welcomeText");
+                const text = textElement.innerHTML;
+                textElement.innerHTML = "";
+                textElement.classList.remove("hidden");
+                
+                let index = 0;
+
+                function typeWriter() {
+                    if (index < text.length) {
+                        textElement.innerHTML += text.charAt(index);
+                        index++;
+                        setTimeout(typeWriter, 100);
+                    }
+                }
+
+                typeWriter();
+            });
+        </script>
+
+        <div style="font-size: 18px">
+
+            <a class="white">you</a><a class="red">tube</a><a class="white">: </a><br>
+
+            <th><a class="lime-color" style="font-size: 14px">> </a><a class="lime-color" style="font-size: 14px" href="https://www.youtube.com/@kvvzzz">kvvz</a></th><br>
+            <th><a class="lime-color" style="font-size: 14px">> </a><a class="lime-color" style="font-size: 14px" href="https://www.youtube.com/@drabina">drabina</a></th><br><br>
+
+            
+            <a class="indigo">twitch</a><a class="white">: </a><br>
+
+            <th><a class="lime-color" style="font-size: 14px">> </a><a class="lime-color" style="font-size: 14px" href="https://www.twitch.tv/siurdupacyce">siurdupacyce</a></th><br><br>
+
+
+            <a class="pink">instagram</a><a class="white">: </a><br>
+
+            <th><a class="lime-color" style="font-size: 14px">> </a><a class="lime-color" style="font-size: 14px" href="https://www.instagram.com/wielkikutasbobra">wielkikutasbobra</a></th><br><br>
+
+
+            <a class="darkblue">github</a><a class="white">: </a><br>
+
+            <th><a class="lime-color" style="font-size: 14px">> </a><a class="lime-color" style="font-size: 14px" href="https://github.com/kvvzie">kvvzie</a></th><br><br>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img class="disc" src="/images/disc.png" width="50" height="50">
+        <span class="hover-text"></span>
+    </div>
+
+    <audio id="background-music">
+        <source id="audio-source" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audioElement = document.getElementById('background-music');
+            if (audioElement) {
+                audioElement.volume = 0.3;
+                audioElement.play();
+            }
+        });
+    </script>
+
+</body>
+</html>

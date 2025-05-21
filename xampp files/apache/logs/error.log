@@ -1,0 +1,926 @@
+[Sat Jun 29 17:05:11.038165 2024] [ssl:warn] [pid 22808:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:11.072858 2024] [ssl:warn] [pid 22808:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:11.096911 2024] [mpm_winnt:notice] [pid 22808:tid 492] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 17:05:11.096911 2024] [mpm_winnt:notice] [pid 22808:tid 492] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 17:05:11.096911 2024] [core:notice] [pid 22808:tid 492] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 17:05:11.101415 2024] [mpm_winnt:notice] [pid 22808:tid 492] AH00418: Parent: Created child process 28840
+[Sat Jun 29 17:05:11.324649 2024] [ssl:warn] [pid 28840:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:11.354931 2024] [ssl:warn] [pid 28840:tid 448] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:11.376938 2024] [mpm_winnt:notice] [pid 28840:tid 448] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 17:05:38.845666 2024] [ssl:warn] [pid 10724:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:38.878104 2024] [ssl:warn] [pid 10724:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:38.898998 2024] [mpm_winnt:notice] [pid 10724:tid 464] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 17:05:38.898998 2024] [mpm_winnt:notice] [pid 10724:tid 464] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 17:05:38.898998 2024] [core:notice] [pid 10724:tid 464] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 17:05:38.902006 2024] [mpm_winnt:notice] [pid 10724:tid 464] AH00418: Parent: Created child process 9868
+[Sat Jun 29 17:05:39.126059 2024] [ssl:warn] [pid 9868:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:39.156025 2024] [ssl:warn] [pid 9868:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:05:39.178052 2024] [mpm_winnt:notice] [pid 9868:tid 472] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 17:45:24.179935 2024] [ssl:warn] [pid 8780:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:45:24.199585 2024] [core:warn] [pid 8780:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 17:45:24.201582 2024] [ssl:warn] [pid 8780:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:45:24.355517 2024] [mpm_winnt:notice] [pid 8780:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 17:45:24.355517 2024] [mpm_winnt:notice] [pid 8780:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 17:45:24.355517 2024] [core:notice] [pid 8780:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 17:45:24.357517 2024] [mpm_winnt:notice] [pid 8780:tid 436] AH00418: Parent: Created child process 17516
+[Sat Jun 29 17:45:24.520048 2024] [ssl:warn] [pid 17516:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:45:24.538317 2024] [ssl:warn] [pid 17516:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:45:24.558361 2024] [mpm_winnt:notice] [pid 17516:tid 460] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 17:50:37.538060 2024] [ssl:warn] [pid 17244:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:50:37.566534 2024] [core:warn] [pid 17244:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 17:50:37.567531 2024] [ssl:warn] [pid 17244:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:50:37.709430 2024] [mpm_winnt:notice] [pid 17244:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 17:50:37.709430 2024] [mpm_winnt:notice] [pid 17244:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 17:50:37.709430 2024] [core:notice] [pid 17244:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 17:50:37.712431 2024] [mpm_winnt:notice] [pid 17244:tid 440] AH00418: Parent: Created child process 21880
+[Sat Jun 29 17:50:37.985401 2024] [ssl:warn] [pid 21880:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:50:38.007172 2024] [ssl:warn] [pid 21880:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 17:50:38.027177 2024] [mpm_winnt:notice] [pid 21880:tid 456] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 20:26:55.520837 2024] [ssl:warn] [pid 5788:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:26:55.550893 2024] [core:warn] [pid 5788:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 20:26:55.550893 2024] [ssl:warn] [pid 5788:tid 440] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:26:55.701195 2024] [mpm_winnt:notice] [pid 5788:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 20:26:55.701195 2024] [mpm_winnt:notice] [pid 5788:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 20:26:55.701195 2024] [core:notice] [pid 5788:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 20:26:55.701195 2024] [mpm_winnt:notice] [pid 5788:tid 440] AH00418: Parent: Created child process 6072
+[Sat Jun 29 20:26:55.861522 2024] [ssl:warn] [pid 6072:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:26:55.881552 2024] [ssl:warn] [pid 6072:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:26:55.902095 2024] [mpm_winnt:notice] [pid 6072:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 20:50:31.722545 2024] [ssl:warn] [pid 20252:tid 424] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:50:31.722545 2024] [ssl:warn] [pid 20252:tid 424] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:50:31.743609 2024] [core:warn] [pid 20252:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 20:50:31.744668 2024] [ssl:warn] [pid 20252:tid 424] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Jun 29 20:50:31.745665 2024] [ssl:warn] [pid 20252:tid 424] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:50:31.745665 2024] [ssl:warn] [pid 20252:tid 424] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:50:31.881211 2024] [mpm_winnt:notice] [pid 20252:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 20:50:31.881211 2024] [mpm_winnt:notice] [pid 20252:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 20:50:31.881211 2024] [core:notice] [pid 20252:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 20:50:31.884212 2024] [mpm_winnt:notice] [pid 20252:tid 424] AH00418: Parent: Created child process 2088
+[Sat Jun 29 20:50:32.049229 2024] [ssl:warn] [pid 2088:tid 452] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:50:32.049229 2024] [ssl:warn] [pid 2088:tid 452] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:50:32.069233 2024] [ssl:warn] [pid 2088:tid 452] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Jun 29 20:50:32.070234 2024] [ssl:warn] [pid 2088:tid 452] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:50:32.070234 2024] [ssl:warn] [pid 2088:tid 452] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:50:32.090238 2024] [mpm_winnt:notice] [pid 2088:tid 452] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 20:57:32.649091 2024] [ssl:warn] [pid 19556:tid 436] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.649091 2024] [ssl:warn] [pid 19556:tid 436] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.650091 2024] [ssl:warn] [pid 19556:tid 436] AH01906: localhost:443:1 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.650091 2024] [ssl:warn] [pid 19556:tid 436] AH01909: localhost:443:1 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.671203 2024] [core:warn] [pid 19556:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 20:57:32.672199 2024] [ssl:warn] [pid 19556:tid 436] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.672199 2024] [ssl:warn] [pid 19556:tid 436] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.672199 2024] [ssl:warn] [pid 19556:tid 436] AH01906: localhost:443:1 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.672199 2024] [ssl:warn] [pid 19556:tid 436] AH01909: localhost:443:1 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.692229 2024] [mpm_winnt:notice] [pid 19556:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 20:57:32.692229 2024] [mpm_winnt:notice] [pid 19556:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 20:57:32.692229 2024] [core:notice] [pid 19556:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 20:57:32.695229 2024] [mpm_winnt:notice] [pid 19556:tid 436] AH00418: Parent: Created child process 17736
+[Sat Jun 29 20:57:32.857932 2024] [ssl:warn] [pid 17736:tid 436] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.857932 2024] [ssl:warn] [pid 17736:tid 436] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.858933 2024] [ssl:warn] [pid 17736:tid 436] AH01906: localhost:443:1 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.858933 2024] [ssl:warn] [pid 17736:tid 436] AH01909: localhost:443:1 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.879997 2024] [ssl:warn] [pid 17736:tid 436] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.879997 2024] [ssl:warn] [pid 17736:tid 436] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.879997 2024] [ssl:warn] [pid 17736:tid 436] AH01906: localhost:443:1 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 20:57:32.879997 2024] [ssl:warn] [pid 17736:tid 436] AH01909: localhost:443:1 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 20:57:32.901068 2024] [mpm_winnt:notice] [pid 17736:tid 436] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 21:01:33.025179 2024] [ssl:warn] [pid 13132:tid 440] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:33.025179 2024] [ssl:warn] [pid 13132:tid 440] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:33.046759 2024] [core:warn] [pid 13132:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 21:01:33.048759 2024] [ssl:warn] [pid 13132:tid 440] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:33.048759 2024] [ssl:warn] [pid 13132:tid 440] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:33.067823 2024] [mpm_winnt:notice] [pid 13132:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 21:01:33.067823 2024] [mpm_winnt:notice] [pid 13132:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 21:01:33.067823 2024] [core:notice] [pid 13132:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 21:01:33.070824 2024] [mpm_winnt:notice] [pid 13132:tid 440] AH00418: Parent: Created child process 9396
+[Sat Jun 29 21:01:33.235101 2024] [ssl:warn] [pid 9396:tid 464] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:33.235101 2024] [ssl:warn] [pid 9396:tid 464] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:33.257590 2024] [ssl:warn] [pid 9396:tid 464] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:33.257590 2024] [ssl:warn] [pid 9396:tid 464] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:33.278647 2024] [mpm_winnt:notice] [pid 9396:tid 464] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 21:01:58.852786 2024] [ssl:warn] [pid 17012:tid 432] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:58.853781 2024] [ssl:warn] [pid 17012:tid 432] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:58.874619 2024] [core:warn] [pid 17012:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 21:01:58.875616 2024] [ssl:warn] [pid 17012:tid 432] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:58.875616 2024] [ssl:warn] [pid 17012:tid 432] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:58.895708 2024] [mpm_winnt:notice] [pid 17012:tid 432] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 21:01:58.895708 2024] [mpm_winnt:notice] [pid 17012:tid 432] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 21:01:58.895708 2024] [core:notice] [pid 17012:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 21:01:58.898709 2024] [mpm_winnt:notice] [pid 17012:tid 432] AH00418: Parent: Created child process 8812
+[Sat Jun 29 21:01:59.066104 2024] [ssl:warn] [pid 8812:tid 432] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:59.066104 2024] [ssl:warn] [pid 8812:tid 432] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:59.087488 2024] [ssl:warn] [pid 8812:tid 432] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:01:59.087488 2024] [ssl:warn] [pid 8812:tid 432] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:01:59.108056 2024] [mpm_winnt:notice] [pid 8812:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 21:12:38.274034 2024] [ssl:warn] [pid 10008:tid 484] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:12:38.274034 2024] [ssl:warn] [pid 10008:tid 484] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:12:38.295737 2024] [core:warn] [pid 10008:tid 484] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 21:12:38.296733 2024] [ssl:warn] [pid 10008:tid 484] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:12:38.296733 2024] [ssl:warn] [pid 10008:tid 484] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:12:38.317825 2024] [mpm_winnt:notice] [pid 10008:tid 484] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 21:12:38.317825 2024] [mpm_winnt:notice] [pid 10008:tid 484] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 21:12:38.317825 2024] [core:notice] [pid 10008:tid 484] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 21:12:38.319825 2024] [mpm_winnt:notice] [pid 10008:tid 484] AH00418: Parent: Created child process 17076
+[Sat Jun 29 21:12:38.594693 2024] [ssl:warn] [pid 17076:tid 468] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:12:38.594693 2024] [ssl:warn] [pid 17076:tid 468] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:12:38.615746 2024] [ssl:warn] [pid 17076:tid 468] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:12:38.615746 2024] [ssl:warn] [pid 17076:tid 468] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:12:38.636838 2024] [mpm_winnt:notice] [pid 17076:tid 468] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 21:16:05.092521 2024] [ssl:warn] [pid 15720:tid 472] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:16:05.092521 2024] [ssl:warn] [pid 15720:tid 472] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:16:05.124266 2024] [core:warn] [pid 15720:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 21:16:05.127261 2024] [ssl:warn] [pid 15720:tid 472] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:16:05.127261 2024] [ssl:warn] [pid 15720:tid 472] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:16:05.331146 2024] [mpm_winnt:notice] [pid 15720:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 21:16:05.331146 2024] [mpm_winnt:notice] [pid 15720:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 21:16:05.331146 2024] [core:notice] [pid 15720:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 21:16:05.331146 2024] [mpm_winnt:notice] [pid 15720:tid 472] AH00418: Parent: Created child process 16144
+[Sat Jun 29 21:16:05.662532 2024] [ssl:warn] [pid 16144:tid 452] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:16:05.662532 2024] [ssl:warn] [pid 16144:tid 452] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:16:05.688269 2024] [ssl:warn] [pid 16144:tid 452] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 21:16:05.688269 2024] [ssl:warn] [pid 16144:tid 452] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 21:16:05.718747 2024] [mpm_winnt:notice] [pid 16144:tid 452] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 29 23:05:28.910786 2024] [authz_core:error] [pid 16144:tid 1812] [client 142.93.143.8:34072] AH01630: client denied by server configuration: C:/website/server-status
+[Sat Jun 29 23:05:29.893331 2024] [authz_core:error] [pid 16144:tid 1712] [client 159.65.18.197:39000] AH01630: client denied by server configuration: C:/website/server-status
+[Sat Jun 29 23:22:48.185484 2024] [ssl:warn] [pid 20360:tid 424] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 23:22:48.186484 2024] [ssl:warn] [pid 20360:tid 424] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 23:22:48.210490 2024] [core:warn] [pid 20360:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 29 23:22:48.211490 2024] [ssl:warn] [pid 20360:tid 424] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 23:22:48.211490 2024] [ssl:warn] [pid 20360:tid 424] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 23:22:48.244352 2024] [mpm_winnt:notice] [pid 20360:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jun 29 23:22:48.244352 2024] [mpm_winnt:notice] [pid 20360:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jun 29 23:22:48.244352 2024] [core:notice] [pid 20360:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jun 29 23:22:48.247353 2024] [mpm_winnt:notice] [pid 20360:tid 424] AH00418: Parent: Created child process 5868
+[Sat Jun 29 23:22:48.412230 2024] [ssl:warn] [pid 5868:tid 432] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 23:22:48.412230 2024] [ssl:warn] [pid 5868:tid 432] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 23:22:48.435235 2024] [ssl:warn] [pid 5868:tid 432] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jun 29 23:22:48.435235 2024] [ssl:warn] [pid 5868:tid 432] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 29 23:22:48.456760 2024] [mpm_winnt:notice] [pid 5868:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 10:54:58.740991 2024] [ssl:warn] [pid 18984:tid 424] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jun 30 10:54:58.740991 2024] [ssl:warn] [pid 18984:tid 424] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 30 10:54:58.799022 2024] [core:warn] [pid 18984:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 10:54:58.800023 2024] [ssl:warn] [pid 18984:tid 424] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jun 30 10:54:58.800023 2024] [ssl:warn] [pid 18984:tid 424] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 30 10:54:58.988158 2024] [mpm_winnt:notice] [pid 18984:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 10:54:58.988158 2024] [mpm_winnt:notice] [pid 18984:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 10:54:58.988158 2024] [core:notice] [pid 18984:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 10:54:58.991175 2024] [mpm_winnt:notice] [pid 18984:tid 424] AH00418: Parent: Created child process 16620
+[Sun Jun 30 10:54:59.148786 2024] [ssl:warn] [pid 16620:tid 456] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jun 30 10:54:59.148786 2024] [ssl:warn] [pid 16620:tid 456] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 30 10:54:59.167261 2024] [ssl:warn] [pid 16620:tid 456] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jun 30 10:54:59.167261 2024] [ssl:warn] [pid 16620:tid 456] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 30 10:54:59.186917 2024] [mpm_winnt:notice] [pid 16620:tid 456] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 13:15:03.580291 2024] [core:warn] [pid 11900:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 13:15:03.729252 2024] [mpm_winnt:notice] [pid 11900:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 13:15:03.729252 2024] [mpm_winnt:notice] [pid 11900:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 13:15:03.729252 2024] [core:notice] [pid 11900:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 13:15:03.731688 2024] [mpm_winnt:notice] [pid 11900:tid 440] AH00418: Parent: Created child process 1028
+[Sun Jun 30 13:15:04.050666 2024] [mpm_winnt:notice] [pid 1028:tid 444] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 14:25:53.981945 2024] [php:error] [pid 1028:tid 1848] [client 137.184.2.148:51532] script 'C:/website/upl.php' not found or unable to stat
+[Sun Jun 30 14:25:55.960458 2024] [php:error] [pid 1028:tid 1848] [client 137.184.2.148:40138] script 'C:/website/1.php' not found or unable to stat
+[Sun Jun 30 14:25:57.686301 2024] [php:error] [pid 1028:tid 1848] [client 137.184.2.148:40164] script 'C:/website/password.php' not found or unable to stat
+[Sun Jun 30 14:25:58.068451 2024] [php:error] [pid 1028:tid 1848] [client 137.184.2.148:40166] script 'C:/website/info.php' not found or unable to stat
+[Sun Jun 30 15:25:57.211418 2024] [core:warn] [pid 10392:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 15:25:57.367851 2024] [mpm_winnt:notice] [pid 10392:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 15:25:57.367851 2024] [mpm_winnt:notice] [pid 10392:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 15:25:57.367851 2024] [core:notice] [pid 10392:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 15:25:57.367851 2024] [mpm_winnt:notice] [pid 10392:tid 436] AH00418: Parent: Created child process 10444
+[Sun Jun 30 15:25:57.686237 2024] [mpm_winnt:notice] [pid 10444:tid 468] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 17:13:20.197812 2024] [core:warn] [pid 4672:tid 464] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 17:13:20.373138 2024] [mpm_winnt:notice] [pid 4672:tid 464] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 17:13:20.373138 2024] [mpm_winnt:notice] [pid 4672:tid 464] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 17:13:20.373138 2024] [core:notice] [pid 4672:tid 464] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 17:13:20.375254 2024] [mpm_winnt:notice] [pid 4672:tid 464] AH00418: Parent: Created child process 16688
+[Sun Jun 30 17:13:20.585412 2024] [mpm_winnt:notice] [pid 16688:tid 440] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 17:51:28.840909 2024] [core:warn] [pid 19284:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 17:51:28.865013 2024] [mpm_winnt:notice] [pid 19284:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 17:51:28.865013 2024] [mpm_winnt:notice] [pid 19284:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 17:51:28.865013 2024] [core:notice] [pid 19284:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 17:51:28.868014 2024] [mpm_winnt:notice] [pid 19284:tid 424] AH00418: Parent: Created child process 20780
+[Sun Jun 30 17:51:29.077876 2024] [mpm_winnt:notice] [pid 20780:tid 492] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 20:45:54.509300 2024] [core:warn] [pid 3540:tid 496] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 20:45:54.533864 2024] [mpm_winnt:notice] [pid 3540:tid 496] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 20:45:54.533864 2024] [mpm_winnt:notice] [pid 3540:tid 496] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 20:45:54.533864 2024] [core:notice] [pid 3540:tid 496] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 20:45:54.535864 2024] [mpm_winnt:notice] [pid 3540:tid 496] AH00418: Parent: Created child process 20464
+[Sun Jun 30 20:45:54.750244 2024] [mpm_winnt:notice] [pid 20464:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 20:46:00.975160 2024] [autoindex:error] [pid 20464:tid 1856] [client 217.97.112.119:51423] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:46:01.758431 2024] [autoindex:error] [pid 20464:tid 1856] [client 217.97.112.119:51423] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:46:03.860175 2024] [autoindex:error] [pid 20464:tid 1856] [client 217.97.112.119:51423] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:46:04.325280 2024] [autoindex:error] [pid 20464:tid 1856] [client 217.97.112.119:51423] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:46:04.520803 2024] [autoindex:error] [pid 20464:tid 1856] [client 217.97.112.119:51423] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:46:35.733409 2024] [php:error] [pid 20464:tid 1752] [client 213.232.87.228:34077] script 'C:/website/phpinfo.php' not found or unable to stat
+[Sun Jun 30 20:46:35.748437 2024] [php:error] [pid 20464:tid 1804] [client 213.232.87.228:15073] script 'C:/website/wp-config.php' not found or unable to stat
+[Sun Jun 30 20:46:35.785638 2024] [php:error] [pid 20464:tid 1816] [client 213.232.87.228:32345] script 'C:/website/config.php' not found or unable to stat
+[Sun Jun 30 20:46:35.795680 2024] [authz_core:error] [pid 20464:tid 1608] [client 213.232.87.228:24935] AH01630: client denied by server configuration: C:/website/server-status
+[Sun Jun 30 20:47:30.215836 2024] [core:warn] [pid 22724:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 20:47:30.240647 2024] [mpm_winnt:notice] [pid 22724:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 20:47:30.240647 2024] [mpm_winnt:notice] [pid 22724:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 20:47:30.240647 2024] [core:notice] [pid 22724:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 20:47:30.242678 2024] [mpm_winnt:notice] [pid 22724:tid 440] AH00418: Parent: Created child process 17232
+[Sun Jun 30 20:47:30.559592 2024] [mpm_winnt:notice] [pid 17232:tid 484] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 20:47:32.664824 2024] [autoindex:error] [pid 17232:tid 1856] [client 217.97.112.119:51426] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:48:30.180068 2024] [core:warn] [pid 13036:tid 460] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 20:48:30.205066 2024] [mpm_winnt:notice] [pid 13036:tid 460] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 20:48:30.205066 2024] [mpm_winnt:notice] [pid 13036:tid 460] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 20:48:30.205066 2024] [core:notice] [pid 13036:tid 460] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 20:48:30.207245 2024] [mpm_winnt:notice] [pid 13036:tid 460] AH00418: Parent: Created child process 16884
+[Sun Jun 30 20:48:30.421864 2024] [mpm_winnt:notice] [pid 16884:tid 492] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 20:48:36.343539 2024] [autoindex:error] [pid 16884:tid 1848] [client 217.97.112.119:51434] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:48:50.024039 2024] [autoindex:error] [pid 16884:tid 1832] [client 217.97.112.119:51438] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:49:50.449239 2024] [autoindex:error] [pid 16884:tid 1836] [client 217.97.112.119:51450] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:50:19.556351 2024] [core:warn] [pid 4512:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 20:50:19.581213 2024] [mpm_winnt:notice] [pid 4512:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 20:50:19.581213 2024] [mpm_winnt:notice] [pid 4512:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 20:50:19.581213 2024] [core:notice] [pid 4512:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 20:50:19.584273 2024] [mpm_winnt:notice] [pid 4512:tid 472] AH00418: Parent: Created child process 4312
+[Sun Jun 30 20:50:19.792266 2024] [mpm_winnt:notice] [pid 4312:tid 464] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 20:50:20.942066 2024] [autoindex:error] [pid 4312:tid 1856] [client 217.97.112.119:51458] AH01276: Cannot serve directory C:/website/videos/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:50:29.958062 2024] [autoindex:error] [pid 4312:tid 1856] [client 217.97.112.119:51459] AH01276: Cannot serve directory C:/website/images/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:50:33.377697 2024] [autoindex:error] [pid 4312:tid 1856] [client 217.97.112.119:51459] AH01276: Cannot serve directory C:/website/icon/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:57:10.875595 2024] [core:warn] [pid 8108:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jun 30 20:57:10.900725 2024] [mpm_winnt:notice] [pid 8108:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Jun 30 20:57:10.900725 2024] [mpm_winnt:notice] [pid 8108:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Jun 30 20:57:10.901231 2024] [core:notice] [pid 8108:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Jun 30 20:57:10.903261 2024] [mpm_winnt:notice] [pid 8108:tid 436] AH00418: Parent: Created child process 22792
+[Sun Jun 30 20:57:11.218567 2024] [mpm_winnt:notice] [pid 22792:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sun Jun 30 20:57:16.371818 2024] [autoindex:error] [pid 22792:tid 1856] [client 217.97.112.119:51509] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 20:57:38.134654 2024] [autoindex:error] [pid 22792:tid 1856] [client 217.97.112.119:51511] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 21:00:14.544458 2024] [autoindex:error] [pid 22792:tid 1856] [client 217.97.112.119:51539] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 21:06:41.792149 2024] [autoindex:error] [pid 22792:tid 1856] [client 37.47.81.103:4556] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 21:08:32.136985 2024] [autoindex:error] [pid 22792:tid 1808] [client 217.97.112.119:51636] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 21:12:54.996349 2024] [autoindex:error] [pid 22792:tid 1832] [client 217.97.112.119:51652] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 22:04:07.674881 2024] [php:error] [pid 22792:tid 1856] [client 34.46.58.68:64459] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Sun Jun 30 22:14:33.696554 2024] [php:error] [pid 22792:tid 1856] [client 34.132.121.244:55174] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Sun Jun 30 23:08:14.412151 2024] [autoindex:error] [pid 22792:tid 1828] [client 217.97.112.119:52257] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Jun 30 23:12:29.215599 2024] [autoindex:error] [pid 22792:tid 1832] [client 127.0.0.1:52325] AH01276: Cannot serve directory C:/website/music/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Mon Jul 01 11:20:44.143279 2024] [core:warn] [pid 1804:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 11:20:44.311763 2024] [mpm_winnt:notice] [pid 1804:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 11:20:44.311763 2024] [mpm_winnt:notice] [pid 1804:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 11:20:44.311763 2024] [core:notice] [pid 1804:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 11:20:44.314760 2024] [mpm_winnt:notice] [pid 1804:tid 440] AH00418: Parent: Created child process 5104
+[Mon Jul 01 11:20:44.630923 2024] [mpm_winnt:notice] [pid 5104:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 11:20:54.243950 2024] [core:warn] [pid 17324:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 11:20:54.268042 2024] [mpm_winnt:notice] [pid 17324:tid 428] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 11:20:54.268042 2024] [mpm_winnt:notice] [pid 17324:tid 428] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 11:20:54.268042 2024] [core:notice] [pid 17324:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 11:20:54.271038 2024] [mpm_winnt:notice] [pid 17324:tid 428] AH00418: Parent: Created child process 7740
+[Mon Jul 01 11:20:54.480459 2024] [mpm_winnt:notice] [pid 7740:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 11:24:30.092530 2024] [core:warn] [pid 17284:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 11:24:30.117536 2024] [mpm_winnt:notice] [pid 17284:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 11:24:30.117536 2024] [mpm_winnt:notice] [pid 17284:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 11:24:30.117536 2024] [core:notice] [pid 17284:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 11:24:30.119536 2024] [mpm_winnt:notice] [pid 17284:tid 424] AH00418: Parent: Created child process 20264
+[Mon Jul 01 11:24:30.441234 2024] [mpm_winnt:notice] [pid 20264:tid 476] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 11:30:24.152573 2024] [core:warn] [pid 4608:tid 444] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 11:30:24.177793 2024] [mpm_winnt:notice] [pid 4608:tid 444] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 11:30:24.177803 2024] [mpm_winnt:notice] [pid 4608:tid 444] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 11:30:24.177803 2024] [core:notice] [pid 4608:tid 444] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 11:30:24.179836 2024] [mpm_winnt:notice] [pid 4608:tid 444] AH00418: Parent: Created child process 8284
+[Mon Jul 01 11:30:24.390179 2024] [mpm_winnt:notice] [pid 8284:tid 480] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 11:30:33.752600 2024] [authz_core:error] [pid 8284:tid 1856] [client 217.97.112.119:50090] AH01630: client denied by server configuration: C:/website/server.js
+[Mon Jul 01 11:47:08.817963 2024] [core:warn] [pid 12772:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 11:47:08.842022 2024] [mpm_winnt:notice] [pid 12772:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 11:47:08.842022 2024] [mpm_winnt:notice] [pid 12772:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 11:47:08.842022 2024] [core:notice] [pid 12772:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 11:47:08.845023 2024] [mpm_winnt:notice] [pid 12772:tid 436] AH00418: Parent: Created child process 20836
+[Mon Jul 01 11:47:09.054340 2024] [mpm_winnt:notice] [pid 20836:tid 476] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 11:54:39.106666 2024] [core:warn] [pid 5200:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 11:54:39.130733 2024] [mpm_winnt:notice] [pid 5200:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 11:54:39.130733 2024] [mpm_winnt:notice] [pid 5200:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 11:54:39.130733 2024] [core:notice] [pid 5200:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 11:54:39.133734 2024] [mpm_winnt:notice] [pid 5200:tid 436] AH00418: Parent: Created child process 10052
+[Mon Jul 01 11:54:39.342620 2024] [mpm_winnt:notice] [pid 10052:tid 448] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 12:02:14.763611 2024] [core:warn] [pid 8860:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 12:02:14.788687 2024] [mpm_winnt:notice] [pid 8860:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 12:02:14.788687 2024] [mpm_winnt:notice] [pid 8860:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 12:02:14.788687 2024] [core:notice] [pid 8860:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 12:02:14.791688 2024] [mpm_winnt:notice] [pid 8860:tid 424] AH00418: Parent: Created child process 20892
+[Mon Jul 01 12:02:15.144491 2024] [mpm_winnt:notice] [pid 20892:tid 452] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 12:40:06.125741 2024] [core:warn] [pid 22316:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 12:40:06.151605 2024] [mpm_winnt:notice] [pid 22316:tid 432] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 12:40:06.151605 2024] [mpm_winnt:notice] [pid 22316:tid 432] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 12:40:06.151605 2024] [core:notice] [pid 22316:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 12:40:06.154125 2024] [mpm_winnt:notice] [pid 22316:tid 432] AH00418: Parent: Created child process 12484
+[Mon Jul 01 12:40:06.476199 2024] [mpm_winnt:notice] [pid 12484:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 12:42:49.192781 2024] [core:warn] [pid 23612:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 12:42:49.217409 2024] [mpm_winnt:notice] [pid 23612:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 12:42:49.217409 2024] [mpm_winnt:notice] [pid 23612:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 12:42:49.217409 2024] [core:notice] [pid 23612:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 12:42:49.219405 2024] [mpm_winnt:notice] [pid 23612:tid 424] AH00418: Parent: Created child process 21824
+[Mon Jul 01 12:42:49.431066 2024] [mpm_winnt:notice] [pid 21824:tid 508] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 12:42:52.009923 2024] [authz_core:error] [pid 21824:tid 1856] [client 217.97.112.119:52209] AH01630: client denied by server configuration: C:/website/server.js
+[Mon Jul 01 12:42:59.377126 2024] [authz_core:error] [pid 21824:tid 1856] [client 217.97.112.119:52217] AH01630: client denied by server configuration: C:/website/config.json
+[Mon Jul 01 12:56:50.391861 2024] [authz_core:error] [pid 21824:tid 1824] [client 217.97.112.119:53324] AH01630: client denied by server configuration: C:/website/server.js
+[Mon Jul 01 12:56:56.523456 2024] [authz_core:error] [pid 21824:tid 1824] [client 217.97.112.119:53328] AH01630: client denied by server configuration: C:/website/config.json
+[Mon Jul 01 13:02:19.346315 2024] [php:error] [pid 21824:tid 1824] [client 52.160.38.11:56183] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 13:02:20.850347 2024] [php:error] [pid 21824:tid 1856] [client 52.160.38.11:61902] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 13:07:09.309205 2024] [php:error] [pid 21824:tid 1824] [client 52.247.225.206:59775] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 13:07:40.903980 2024] [php:error] [pid 21824:tid 1824] [client 52.247.225.206:54732] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 13:11:23.381605 2024] [authz_core:error] [pid 21824:tid 1824] [client 217.97.112.119:53807] AH01630: client denied by server configuration: C:/website/server.js
+[Mon Jul 01 13:22:41.670643 2024] [php:error] [pid 21824:tid 1824] [client 52.160.38.11:57010] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 13:26:17.085066 2024] [php:error] [pid 21824:tid 1824] [client 52.247.225.206:59329] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 15:10:15.083845 2024] [authz_core:error] [pid 21824:tid 1840] [client 217.97.112.119:54282] AH01630: client denied by server configuration: C:/website/config.json
+[Mon Jul 01 15:10:35.674003 2024] [autoindex:error] [pid 21824:tid 1812] [client 217.97.112.119:54283] AH01276: Cannot serve directory C:/website/icon/: No matching DirectoryIndex (index.php,index.pl,index.cgi,index.asp,index.shtml,index.html,index.htm,default.php,default.pl,default.cgi,default.asp,default.shtml,default.html,default.htm,home.php,home.pl,home.cgi,home.asp,home.shtml,home.html,home.htm) found, and server-generated directory index forbidden by Options directive
+[Mon Jul 01 15:11:25.672436 2024] [core:warn] [pid 13924:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 15:11:25.696449 2024] [mpm_winnt:notice] [pid 13924:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 15:11:25.696449 2024] [mpm_winnt:notice] [pid 13924:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 15:11:25.696449 2024] [core:notice] [pid 13924:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 15:11:25.699797 2024] [mpm_winnt:notice] [pid 13924:tid 440] AH00418: Parent: Created child process 14272
+[Mon Jul 01 15:11:25.913690 2024] [mpm_winnt:notice] [pid 14272:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 15:12:27.002711 2024] [core:warn] [pid 14920:tid 468] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 15:12:27.026750 2024] [mpm_winnt:notice] [pid 14920:tid 468] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 15:12:27.026750 2024] [mpm_winnt:notice] [pid 14920:tid 468] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 15:12:27.026750 2024] [core:notice] [pid 14920:tid 468] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 15:12:27.028780 2024] [mpm_winnt:notice] [pid 14920:tid 468] AH00418: Parent: Created child process 21060
+[Mon Jul 01 15:12:27.241295 2024] [mpm_winnt:notice] [pid 21060:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 15:12:48.911829 2024] [core:warn] [pid 9400:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 15:12:48.936831 2024] [mpm_winnt:notice] [pid 9400:tid 428] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 15:12:48.936831 2024] [mpm_winnt:notice] [pid 9400:tid 428] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 15:12:48.936831 2024] [core:notice] [pid 9400:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 15:12:48.939832 2024] [mpm_winnt:notice] [pid 9400:tid 428] AH00418: Parent: Created child process 9504
+[Mon Jul 01 15:12:49.256637 2024] [mpm_winnt:notice] [pid 9504:tid 444] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 16:00:12.657521 2024] [php:error] [pid 9504:tid 1840] [client 185.241.208.250:58585] script 'C:/website/installer.php' not found or unable to stat
+[Mon Jul 01 16:47:17.671170 2024] [core:warn] [pid 12220:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 16:47:17.847941 2024] [mpm_winnt:notice] [pid 12220:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 16:47:17.847941 2024] [mpm_winnt:notice] [pid 12220:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 16:47:17.847941 2024] [core:notice] [pid 12220:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 16:47:17.850942 2024] [mpm_winnt:notice] [pid 12220:tid 436] AH00418: Parent: Created child process 24256
+[Mon Jul 01 16:47:18.179211 2024] [mpm_winnt:notice] [pid 24256:tid 452] AH00354: Child: Starting 150 worker threads.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/kvvz.xyz] does not exist
+[Mon Jul 01 17:00:59.379706 2024] [core:warn] [pid 26060:tid 200] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 17:00:59.404231 2024] [mpm_winnt:notice] [pid 26060:tid 200] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 17:00:59.404231 2024] [mpm_winnt:notice] [pid 26060:tid 200] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 17:00:59.404231 2024] [core:notice] [pid 26060:tid 200] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 17:00:59.407232 2024] [mpm_winnt:notice] [pid 26060:tid 200] AH00418: Parent: Created child process 15352
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/kvvz.xyz] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/kvvz.xyz] does not exist
+[Mon Jul 01 17:00:59.621319 2024] [mpm_winnt:notice] [pid 15352:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 17:08:08.613064 2024] [core:warn] [pid 25612:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 17:08:08.637579 2024] [mpm_winnt:notice] [pid 25612:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 17:08:08.637579 2024] [mpm_winnt:notice] [pid 25612:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 17:08:08.637579 2024] [core:notice] [pid 25612:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 17:08:08.640435 2024] [mpm_winnt:notice] [pid 25612:tid 440] AH00418: Parent: Created child process 25808
+[Mon Jul 01 17:08:08.848846 2024] [mpm_winnt:notice] [pid 25808:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 17:17:16.032060 2024] [proxy:error] [pid 25808:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 01 17:17:16.032060 2024] [proxy_http:error] [pid 25808:tid 1864] [client 217.97.112.119:57105] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Mon Jul 01 17:19:01.185302 2024] [core:warn] [pid 31148:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 17:19:01.352602 2024] [mpm_winnt:notice] [pid 31148:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 17:19:01.352602 2024] [mpm_winnt:notice] [pid 31148:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 17:19:01.352602 2024] [core:notice] [pid 31148:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 17:19:01.354596 2024] [mpm_winnt:notice] [pid 31148:tid 440] AH00418: Parent: Created child process 31224
+[Mon Jul 01 17:19:01.564198 2024] [mpm_winnt:notice] [pid 31224:tid 476] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 17:19:09.962849 2024] [authz_core:error] [pid 31224:tid 1864] [client 217.97.112.119:57266] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 17:19:10.118965 2024] [authz_core:error] [pid 31224:tid 1864] [client 217.97.112.119:57266] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 17:19:10.275997 2024] [authz_core:error] [pid 31224:tid 1864] [client 217.97.112.119:57266] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 17:19:10.397330 2024] [authz_core:error] [pid 31224:tid 1864] [client 217.97.112.119:57266] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 17:19:29.844696 2024] [authz_core:error] [pid 31224:tid 1864] [client 217.97.112.119:57304] AH01630: client denied by server configuration: C:/website/script.js
+[Mon Jul 01 17:19:29.856234 2024] [authz_core:error] [pid 31224:tid 1864] [client 217.97.112.119:57304] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/script.js
+[Mon Jul 01 17:19:36.143008 2024] [authz_core:error] [pid 31224:tid 1832] [client 217.97.112.119:57303] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 17:23:07.008650 2024] [authz_core:error] [pid 31224:tid 1848] [client 217.97.112.119:55144] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 20:56:17.600320 2024] [php:error] [pid 31224:tid 1864] [client 52.247.225.206:60634] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 20:57:07.599290 2024] [php:error] [pid 31224:tid 1848] [client 152.42.184.218:53979] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 21:03:39.455403 2024] [php:error] [pid 31224:tid 1864] [client 52.247.225.206:58490] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 21:06:13.441831 2024] [php:error] [pid 31224:tid 1848] [client 52.247.225.206:49435] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 21:11:38.785039 2024] [php:error] [pid 31224:tid 1840] [client 193.148.16.100:57382] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 21:11:38.834904 2024] [php:error] [pid 31224:tid 1848] [client 193.148.16.100:57372] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 21:22:32.360661 2024] [authz_core:error] [pid 31224:tid 1864] [client 62.210.90.212:57322] AH01630: client denied by server configuration: C:/website/script.js
+[Mon Jul 01 21:22:39.385767 2024] [authz_core:error] [pid 31224:tid 1864] [client 62.210.90.212:50156] AH01630: client denied by server configuration: C:/website/script.js
+[Mon Jul 01 21:36:06.819258 2024] [authz_core:error] [pid 31224:tid 1832] [client 34.213.201.90:40672] AH01630: client denied by server configuration: C:/website/script.js, referer: http://kvvz.xyz/
+[Mon Jul 01 22:09:02.570193 2024] [core:warn] [pid 16464:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 22:09:02.744264 2024] [mpm_winnt:notice] [pid 16464:tid 428] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 22:09:02.744264 2024] [mpm_winnt:notice] [pid 16464:tid 428] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 22:09:02.744264 2024] [core:notice] [pid 16464:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 22:09:02.746265 2024] [mpm_winnt:notice] [pid 16464:tid 428] AH00418: Parent: Created child process 16784
+[Mon Jul 01 22:09:02.943330 2024] [mpm_winnt:notice] [pid 16784:tid 472] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 22:09:05.475778 2024] [authz_core:error] [pid 16784:tid 1864] [client 217.97.112.119:50184] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 22:09:07.068907 2024] [authz_core:error] [pid 16784:tid 1832] [client 217.97.112.119:50188] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 22:09:11.170011 2024] [proxy:error] [pid 16784:tid 1832] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 01 22:09:11.170011 2024] [proxy_http:error] [pid 16784:tid 1832] [client 217.97.112.119:50188] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Mon Jul 01 22:29:33.117915 2024] [authz_core:error] [pid 16784:tid 1856] [client 217.97.112.119:38522] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 22:34:22.019679 2024] [core:error] [pid 16784:tid 1840] [client 124.222.97.30:34276] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Mon Jul 01 22:34:22.486049 2024] [core:error] [pid 16784:tid 1840] [client 124.222.97.30:34458] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Mon Jul 01 22:34:34.281811 2024] [php:error] [pid 16784:tid 1840] [client 124.222.97.30:34540] script 'C:/website/index.php' not found or unable to stat
+[Mon Jul 01 22:34:34.860312 2024] [php:error] [pid 16784:tid 1840] [client 124.222.97.30:34540] script 'C:/website/index.php' not found or unable to stat
+[Mon Jul 01 22:34:35.136862 2024] [php:error] [pid 16784:tid 1840] [client 124.222.97.30:34540] script 'C:/website/index.php' not found or unable to stat
+[Mon Jul 01 22:36:11.430466 2024] [php:error] [pid 16784:tid 1840] [client 34.34.43.250:53671] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 22:43:05.621392 2024] [php:error] [pid 16784:tid 1840] [client 34.91.255.48:64893] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 23:29:36.782517 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50520] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 23:30:04.207057 2024] [php:error] [pid 16784:tid 1840] [client 34.145.208.68:53337] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 01 23:31:51.422263 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50589] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 23:32:19.030515 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50608] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/music/
+[Mon Jul 01 23:32:42.654288 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50620] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 23:33:32.208779 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50652] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 23:33:35.305804 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50652] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 23:33:35.485611 2024] [authz_core:error] [pid 16784:tid 1840] [client 217.97.112.119:50652] AH01630: client denied by server configuration: C:/website/script.js, referer: https://kvvz.xyz/
+[Mon Jul 01 23:33:39.910935 2024] [core:warn] [pid 21700:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 23:33:40.063003 2024] [mpm_winnt:notice] [pid 21700:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 23:33:40.063003 2024] [mpm_winnt:notice] [pid 21700:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 23:33:40.063003 2024] [core:notice] [pid 21700:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 23:33:40.065504 2024] [mpm_winnt:notice] [pid 21700:tid 436] AH00418: Parent: Created child process 11400
+[Mon Jul 01 23:33:40.386343 2024] [mpm_winnt:notice] [pid 11400:tid 456] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 01 23:41:52.535392 2024] [core:warn] [pid 23388:tid 480] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 01 23:41:52.560354 2024] [mpm_winnt:notice] [pid 23388:tid 480] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 01 23:41:52.560354 2024] [mpm_winnt:notice] [pid 23388:tid 480] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 01 23:41:52.560354 2024] [core:notice] [pid 23388:tid 480] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 01 23:41:52.562367 2024] [mpm_winnt:notice] [pid 23388:tid 480] AH00418: Parent: Created child process 4804
+[Mon Jul 01 23:41:52.770405 2024] [mpm_winnt:notice] [pid 4804:tid 440] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 00:02:09.183466 2024] [core:warn] [pid 9732:tid 480] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 00:02:09.208504 2024] [mpm_winnt:notice] [pid 9732:tid 480] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 00:02:09.208504 2024] [mpm_winnt:notice] [pid 9732:tid 480] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 00:02:09.208504 2024] [core:notice] [pid 9732:tid 480] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 00:02:09.211604 2024] [mpm_winnt:notice] [pid 9732:tid 480] AH00418: Parent: Created child process 23416
+[Tue Jul 02 00:02:09.425558 2024] [mpm_winnt:notice] [pid 23416:tid 444] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 00:03:05.546990 2024] [authz_core:error] [pid 23416:tid 1848] [client 217.97.112.119:52239] AH01630: client denied by server configuration: C:/website/server.js
+[Tue Jul 02 00:13:58.292119 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:13:58.292119 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52927] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:14:08.240900 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:14:08.240900 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52935] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:14:17.857622 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:14:17.857622 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52942] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:14:27.833734 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:14:27.833734 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52950] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:14:37.820064 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:14:37.820064 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52960] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:14:47.842060 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:14:47.842060 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52967] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:14:57.860500 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:14:57.860500 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52978] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:15:07.877266 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:15:07.877266 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52986] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:15:18.230458 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:15:18.230458 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:52994] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:15:28.270681 2024] [proxy:error] [pid 23416:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:15:28.270681 2024] [proxy_http:error] [pid 23416:tid 1848] [client 217.97.112.119:53002] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:15:38.303118 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:15:38.303118 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53010] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:15:48.263626 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:15:48.263626 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53018] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:15:58.265849 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:15:58.265849 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53026] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:16:08.253987 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:16:08.253987 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53036] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:16:18.278283 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:16:18.278283 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53044] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:16:28.281638 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:16:28.281638 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53060] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:16:38.245251 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:16:38.245251 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53068] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:16:48.296581 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:16:48.296581 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53076] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:16:58.265218 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:16:58.265218 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53084] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:17:08.303047 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:17:08.303047 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53091] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:17:18.259726 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:17:18.259726 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53100] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:17:28.261865 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:17:28.261865 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53109] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:17:38.294584 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:17:38.294584 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53116] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:17:48.252339 2024] [proxy:error] [pid 23416:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:17:48.252339 2024] [proxy_http:error] [pid 23416:tid 1868] [client 217.97.112.119:53127] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:23:35.149660 2024] [core:warn] [pid 26980:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 00:23:35.174722 2024] [mpm_winnt:notice] [pid 26980:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 00:23:35.174722 2024] [mpm_winnt:notice] [pid 26980:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 00:23:35.174722 2024] [core:notice] [pid 26980:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 00:23:35.177720 2024] [mpm_winnt:notice] [pid 26980:tid 440] AH00418: Parent: Created child process 17980
+[Tue Jul 02 00:23:35.388490 2024] [mpm_winnt:notice] [pid 17980:tid 484] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 00:23:58.240638 2024] [proxy:error] [pid 17980:tid 1844] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:23:58.240638 2024] [proxy_http:error] [pid 17980:tid 1844] [client 217.97.112.119:53405] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:24:03.272719 2024] [proxy:error] [pid 17980:tid 1844] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:24:03.272719 2024] [proxy_http:error] [pid 17980:tid 1844] [client 217.97.112.119:53412] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 00:29:26.711939 2024] [core:warn] [pid 23720:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 00:29:26.738344 2024] [mpm_winnt:notice] [pid 23720:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 00:29:26.738344 2024] [mpm_winnt:notice] [pid 23720:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 00:29:26.738344 2024] [core:notice] [pid 23720:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 00:29:26.741484 2024] [mpm_winnt:notice] [pid 23720:tid 436] AH00418: Parent: Created child process 1600
+[Tue Jul 02 00:29:26.953014 2024] [mpm_winnt:notice] [pid 1600:tid 428] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 00:29:48.282403 2024] [proxy:error] [pid 1600:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 00:29:48.282403 2024] [proxy_http:error] [pid 1600:tid 1860] [client 217.97.112.119:53699] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:05:35.211368 2024] [core:warn] [pid 17796:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:05:35.473099 2024] [mpm_winnt:notice] [pid 17796:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:05:35.473099 2024] [mpm_winnt:notice] [pid 17796:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:05:35.473099 2024] [core:notice] [pid 17796:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:05:35.475099 2024] [mpm_winnt:notice] [pid 17796:tid 424] AH00418: Parent: Created child process 17872
+[Tue Jul 02 12:05:35.682565 2024] [mpm_winnt:notice] [pid 17872:tid 456] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:10:26.602686 2024] [php:error] [pid 17872:tid 1864] [client 87.249.134.70:59986] script 'C:/website/wp-login.php' not found or unable to stat
+[Tue Jul 02 12:13:18.835372 2024] [core:warn] [pid 9304:tid 472] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:13:18.987016 2024] [mpm_winnt:notice] [pid 9304:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:13:18.987016 2024] [mpm_winnt:notice] [pid 9304:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:13:18.987016 2024] [core:notice] [pid 9304:tid 472] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:13:18.990018 2024] [mpm_winnt:notice] [pid 9304:tid 472] AH00418: Parent: Created child process 16204
+[Tue Jul 02 12:13:19.191279 2024] [mpm_winnt:notice] [pid 16204:tid 480] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:16:07.881076 2024] [core:warn] [pid 17764:tid 496] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:16:08.069988 2024] [mpm_winnt:notice] [pid 17764:tid 496] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:16:08.069988 2024] [mpm_winnt:notice] [pid 17764:tid 496] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:16:08.070982 2024] [core:notice] [pid 17764:tid 496] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:16:08.072850 2024] [mpm_winnt:notice] [pid 17764:tid 496] AH00418: Parent: Created child process 18752
+[Tue Jul 02 12:16:08.274035 2024] [mpm_winnt:notice] [pid 18752:tid 456] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:17:39.113335 2024] [core:warn] [pid 21000:tid 460] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:17:39.138472 2024] [mpm_winnt:notice] [pid 21000:tid 460] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:17:39.138472 2024] [mpm_winnt:notice] [pid 21000:tid 460] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:17:39.138472 2024] [core:notice] [pid 21000:tid 460] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:17:39.142047 2024] [mpm_winnt:notice] [pid 21000:tid 460] AH00418: Parent: Created child process 21068
+[Tue Jul 02 12:17:39.359840 2024] [mpm_winnt:notice] [pid 21068:tid 432] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:17:59.766546 2024] [authz_core:error] [pid 21068:tid 1864] [client 217.97.124.233:50117] AH01630: client denied by server configuration: C:/website/server.mjs
+[Tue Jul 02 12:20:32.708285 2024] [php:error] [pid 21068:tid 1840] [client 143.198.85.142:58512] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 12:21:41.679413 2024] [php:error] [pid 21068:tid 1840] [client 138.199.22.131:47596] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 12:29:41.431495 2024] [php:error] [pid 21068:tid 1860] [client 68.183.181.164:60118] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 12:30:49.823032 2024] [core:warn] [pid 3536:tid 428] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:30:49.848109 2024] [mpm_winnt:notice] [pid 3536:tid 428] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:30:49.848109 2024] [mpm_winnt:notice] [pid 3536:tid 428] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:30:49.848109 2024] [core:notice] [pid 3536:tid 428] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:30:49.850104 2024] [mpm_winnt:notice] [pid 3536:tid 428] AH00418: Parent: Created child process 4536
+[Tue Jul 02 12:30:50.184157 2024] [mpm_winnt:notice] [pid 4536:tid 432] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:37:06.051456 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:37:06.051456 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51036] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:37:16.071965 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:37:16.071965 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51050] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:37:26.107879 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:37:26.107879 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51058] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:37:35.990639 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:37:35.990639 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51067] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:37:46.019339 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:37:46.019339 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51075] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:37:56.016068 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:37:56.016068 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51084] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:38:06.035511 2024] [proxy:error] [pid 4536:tid 1860] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:38:06.035511 2024] [proxy_http:error] [pid 4536:tid 1860] [client 217.97.124.233:51093] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:38:14.013396 2024] [core:warn] [pid 19796:tid 464] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:38:14.038398 2024] [mpm_winnt:notice] [pid 19796:tid 464] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:38:14.038398 2024] [mpm_winnt:notice] [pid 19796:tid 464] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:38:14.038398 2024] [core:notice] [pid 19796:tid 464] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:38:14.040392 2024] [mpm_winnt:notice] [pid 19796:tid 464] AH00418: Parent: Created child process 15176
+[Tue Jul 02 12:38:14.249459 2024] [mpm_winnt:notice] [pid 15176:tid 476] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:38:26.039688 2024] [proxy:error] [pid 15176:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:38:26.039688 2024] [proxy_http:error] [pid 15176:tid 1872] [client 217.97.124.233:51107] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:38:36.031961 2024] [proxy:error] [pid 15176:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:38:36.031961 2024] [proxy_http:error] [pid 15176:tid 1872] [client 217.97.124.233:51115] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/
+[Tue Jul 02 12:39:20.674904 2024] [core:warn] [pid 9100:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:39:20.701949 2024] [mpm_winnt:notice] [pid 9100:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:39:20.701949 2024] [mpm_winnt:notice] [pid 9100:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:39:20.701949 2024] [core:notice] [pid 9100:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:39:20.703944 2024] [mpm_winnt:notice] [pid 9100:tid 424] AH00418: Parent: Created child process 10172
+[Tue Jul 02 12:39:21.020466 2024] [mpm_winnt:notice] [pid 10172:tid 444] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:39:41.239900 2024] [proxy:error] [pid 10172:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:39:41.239900 2024] [proxy_http:error] [pid 10172:tid 1872] [client 217.97.124.233:51167] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:39:51.224124 2024] [proxy:error] [pid 10172:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:39:51.224124 2024] [proxy_http:error] [pid 10172:tid 1872] [client 217.97.124.233:51176] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:40:01.240852 2024] [proxy:error] [pid 10172:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:40:01.240852 2024] [proxy_http:error] [pid 10172:tid 1872] [client 217.97.124.233:51184] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:41:39.007030 2024] [core:warn] [pid 23192:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:41:39.031864 2024] [mpm_winnt:notice] [pid 23192:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:41:39.031864 2024] [mpm_winnt:notice] [pid 23192:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:41:39.031864 2024] [core:notice] [pid 23192:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:41:39.034865 2024] [mpm_winnt:notice] [pid 23192:tid 424] AH00418: Parent: Created child process 12844
+[Tue Jul 02 12:41:39.245535 2024] [mpm_winnt:notice] [pid 12844:tid 480] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:45:05.220173 2024] [proxy:error] [pid 12844:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:45:05.220173 2024] [proxy_http:error] [pid 12844:tid 1872] [client 217.97.124.233:51642] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:45:27.663134 2024] [core:warn] [pid 7820:tid 484] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:45:27.688599 2024] [mpm_winnt:notice] [pid 7820:tid 484] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:45:27.688599 2024] [mpm_winnt:notice] [pid 7820:tid 484] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:45:27.688599 2024] [core:notice] [pid 7820:tid 484] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:45:27.690697 2024] [mpm_winnt:notice] [pid 7820:tid 484] AH00418: Parent: Created child process 20024
+[Tue Jul 02 12:45:27.901135 2024] [mpm_winnt:notice] [pid 20024:tid 432] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:45:55.136851 2024] [proxy:error] [pid 20024:tid 1876] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:45:55.136851 2024] [proxy_http:error] [pid 20024:tid 1876] [client 217.97.124.233:51709] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:45:55.260793 2024] [proxy:error] [pid 20024:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:45:55.260793 2024] [proxy_http:error] [pid 20024:tid 1868] [client 217.97.124.233:51711] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:46:05.099778 2024] [proxy:error] [pid 20024:tid 1868] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:46:05.099778 2024] [proxy_http:error] [pid 20024:tid 1868] [client 217.97.124.233:51724] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:46:05.256919 2024] [proxy:error] [pid 20024:tid 1876] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:46:05.256919 2024] [proxy_http:error] [pid 20024:tid 1876] [client 217.97.124.233:51726] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:49:42.472508 2024] [core:warn] [pid 19460:tid 484] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 12:49:42.497312 2024] [mpm_winnt:notice] [pid 19460:tid 484] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 12:49:42.497312 2024] [mpm_winnt:notice] [pid 19460:tid 484] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 12:49:42.497312 2024] [core:notice] [pid 19460:tid 484] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 12:49:42.500321 2024] [mpm_winnt:notice] [pid 19460:tid 484] AH00418: Parent: Created child process 22020
+[Tue Jul 02 12:49:42.707358 2024] [mpm_winnt:notice] [pid 22020:tid 452] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 12:49:53.229562 2024] [proxy:error] [pid 22020:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:49:53.229562 2024] [proxy_http:error] [pid 22020:tid 1872] [client 217.97.124.233:52355] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:50:53.263408 2024] [proxy:error] [pid 22020:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:50:53.263408 2024] [proxy_http:error] [pid 22020:tid 1872] [client 217.97.124.233:52389] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 12:51:53.232226 2024] [proxy:error] [pid 22020:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 12:51:53.232226 2024] [proxy_http:error] [pid 22020:tid 1872] [client 217.97.124.233:52426] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Tue Jul 02 21:11:19.098251 2024] [core:warn] [pid 15776:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 21:11:19.279671 2024] [mpm_winnt:notice] [pid 15776:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 21:11:19.279671 2024] [mpm_winnt:notice] [pid 15776:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 21:11:19.279671 2024] [core:notice] [pid 15776:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 21:11:19.281668 2024] [mpm_winnt:notice] [pid 15776:tid 436] AH00418: Parent: Created child process 18760
+[Tue Jul 02 21:11:19.598827 2024] [mpm_winnt:notice] [pid 18760:tid 444] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 21:23:45.217634 2024] [php:error] [pid 18760:tid 1840] [client 68.183.238.198:57851] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 21:42:43.316770 2024] [php:error] [pid 18760:tid 1840] [client 34.71.189.79:57883] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 22:02:23.320837 2024] [core:warn] [pid 16072:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 02 22:02:23.345819 2024] [mpm_winnt:notice] [pid 16072:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 02 22:02:23.345819 2024] [mpm_winnt:notice] [pid 16072:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 02 22:02:23.345819 2024] [core:notice] [pid 16072:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 02 22:02:23.348813 2024] [mpm_winnt:notice] [pid 16072:tid 424] AH00418: Parent: Created child process 12704
+[Tue Jul 02 22:02:23.569907 2024] [mpm_winnt:notice] [pid 12704:tid 444] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 02 22:03:03.881410 2024] [authz_core:error] [pid 12704:tid 1844] [client 127.0.0.1:51142] AH01630: client denied by server configuration: C:/website/server.js
+[Tue Jul 02 22:03:17.447564 2024] [php:error] [pid 12704:tid 1864] [client 193.148.16.52:45422] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 22:03:17.513547 2024] [php:error] [pid 12704:tid 1844] [client 193.148.16.52:45436] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 22:05:29.572146 2024] [php:error] [pid 12704:tid 1844] [client 35.224.99.79:60230] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 22:12:00.154988 2024] [php:error] [pid 12704:tid 1844] [client 35.193.71.183:58977] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Tue Jul 02 22:24:00.517637 2024] [proxy:error] [pid 12704:tid 1832] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Tue Jul 02 22:24:00.517637 2024] [proxy_http:error] [pid 12704:tid 1832] [client 217.97.124.233:52027] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/music/
+[Wed Jul 03 10:20:05.290384 2024] [core:warn] [pid 15808:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 03 10:20:05.443290 2024] [mpm_winnt:notice] [pid 15808:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jul 03 10:20:05.443290 2024] [mpm_winnt:notice] [pid 15808:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jul 03 10:20:05.443290 2024] [core:notice] [pid 15808:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jul 03 10:20:05.446342 2024] [mpm_winnt:notice] [pid 15808:tid 424] AH00418: Parent: Created child process 12128
+[Wed Jul 03 10:20:05.655220 2024] [mpm_winnt:notice] [pid 12128:tid 464] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 03 10:25:33.322014 2024] [core:warn] [pid 19180:tid 440] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 03 10:25:33.346157 2024] [mpm_winnt:notice] [pid 19180:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jul 03 10:25:33.346157 2024] [mpm_winnt:notice] [pid 19180:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jul 03 10:25:33.346157 2024] [core:notice] [pid 19180:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jul 03 10:25:33.348158 2024] [mpm_winnt:notice] [pid 19180:tid 440] AH00418: Parent: Created child process 21728
+[Wed Jul 03 10:25:33.557667 2024] [mpm_winnt:notice] [pid 21728:tid 452] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 03 10:31:05.916601 2024] [core:warn] [pid 10352:tid 448] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 03 10:31:06.074759 2024] [mpm_winnt:notice] [pid 10352:tid 448] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jul 03 10:31:06.074759 2024] [mpm_winnt:notice] [pid 10352:tid 448] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jul 03 10:31:06.074759 2024] [core:notice] [pid 10352:tid 448] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jul 03 10:31:06.076756 2024] [mpm_winnt:notice] [pid 10352:tid 448] AH00418: Parent: Created child process 5876
+[Wed Jul 03 10:31:06.285711 2024] [mpm_winnt:notice] [pid 5876:tid 460] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 03 10:55:32.303215 2024] [php:error] [pid 5876:tid 1840] [client 156.146.56.138:41290] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 11:01:45.193365 2024] [php:error] [pid 5876:tid 1840] [client 156.146.56.138:52382] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 13:31:31.809541 2024] [php:error] [pid 5876:tid 1840] [client 163.172.186.96:54262] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 13:44:11.796128 2024] [php:error] [pid 5876:tid 1840] [client 163.172.186.96:63583] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 13:49:33.448476 2024] [php:error] [pid 5876:tid 1840] [client 163.172.186.96:53557] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 15:17:29.899256 2024] [php:error] [pid 5876:tid 1832] [client 45.90.61.16:33901] script 'C:/website/3ds.php' not found or unable to stat
+[Wed Jul 03 15:17:34.089281 2024] [php:error] [pid 5876:tid 1832] [client 176.53.218.168:45851] script 'C:/website/3ds.php' not found or unable to stat
+[Wed Jul 03 16:49:46.352863 2024] [php:error] [pid 5876:tid 1840] [client 156.146.56.131:47318] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 16:49:47.377885 2024] [php:error] [pid 5876:tid 1848] [client 156.146.56.131:47306] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 16:52:07.578731 2024] [php:error] [pid 5876:tid 1848] [client 34.86.243.155:59424] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 17:42:06.443462 2024] [php:error] [pid 5876:tid 1828] [client 51.158.176.59:61919] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 03 23:10:26.365029 2024] [core:warn] [pid 35264:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 03 23:10:26.580197 2024] [mpm_winnt:notice] [pid 35264:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jul 03 23:10:26.580197 2024] [mpm_winnt:notice] [pid 35264:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jul 03 23:10:26.580197 2024] [core:notice] [pid 35264:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jul 03 23:10:26.583700 2024] [mpm_winnt:notice] [pid 35264:tid 424] AH00418: Parent: Created child process 37412
+[Wed Jul 03 23:10:26.805363 2024] [mpm_winnt:notice] [pid 37412:tid 448] AH00354: Child: Starting 150 worker threads.
+[Fri Jul 05 19:43:23.710762 2024] [core:warn] [pid 21664:tid 156] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 05 19:43:23.937159 2024] [mpm_winnt:notice] [pid 21664:tid 156] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Fri Jul 05 19:43:23.937159 2024] [mpm_winnt:notice] [pid 21664:tid 156] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Jul 05 19:43:23.937159 2024] [core:notice] [pid 21664:tid 156] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Jul 05 19:43:23.940149 2024] [mpm_winnt:notice] [pid 21664:tid 156] AH00418: Parent: Created child process 21736
+[Fri Jul 05 19:43:24.276657 2024] [mpm_winnt:notice] [pid 21736:tid 492] AH00354: Child: Starting 150 worker threads.
+[Fri Jul 05 20:44:02.004439 2024] [proxy:error] [pid 21736:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:44:02.004439 2024] [proxy_http:error] [pid 21736:tid 1856] [client 83.22.129.27:51547] AH01114: HTTP: failed to make connection to backend: localhost, referer: http://kvvz.xyz/
+[Fri Jul 05 20:44:07.009766 2024] [proxy:error] [pid 21736:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:44:07.009766 2024] [proxy_http:error] [pid 21736:tid 1864] [client 83.22.129.27:51565] AH01114: HTTP: failed to make connection to backend: localhost, referer: http://kvvz.xyz/
+[Fri Jul 05 20:44:12.062883 2024] [proxy:error] [pid 21736:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:44:12.062883 2024] [proxy_http:error] [pid 21736:tid 1856] [client 83.22.129.27:51572] AH01114: HTTP: failed to make connection to backend: localhost, referer: http://kvvz.xyz/
+[Fri Jul 05 20:55:30.365589 2024] [proxy:error] [pid 21736:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:55:30.365589 2024] [proxy_http:error] [pid 21736:tid 1872] [client 83.22.129.27:52265] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:55:35.362192 2024] [proxy:error] [pid 21736:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:55:35.362192 2024] [proxy_http:error] [pid 21736:tid 1848] [client 83.22.129.27:52268] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:55:40.370336 2024] [proxy:error] [pid 21736:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:55:40.370336 2024] [proxy_http:error] [pid 21736:tid 1872] [client 83.22.129.27:52271] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:55:45.442421 2024] [proxy:error] [pid 21736:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:55:45.442421 2024] [proxy_http:error] [pid 21736:tid 1848] [client 83.22.129.27:52277] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:55:50.438705 2024] [proxy:error] [pid 21736:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:55:50.438705 2024] [proxy_http:error] [pid 21736:tid 1872] [client 83.22.129.27:52278] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:55:55.449832 2024] [proxy:error] [pid 21736:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:55:55.449832 2024] [proxy_http:error] [pid 21736:tid 1848] [client 83.22.129.27:52285] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:56:00.445763 2024] [proxy:error] [pid 21736:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:56:00.445763 2024] [proxy_http:error] [pid 21736:tid 1872] [client 83.22.129.27:52291] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:56:05.814949 2024] [proxy:error] [pid 21736:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:56:05.814949 2024] [proxy_http:error] [pid 21736:tid 1848] [client 83.22.129.27:52295] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:56:10.833506 2024] [proxy:error] [pid 21736:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 20:56:10.833506 2024] [proxy_http:error] [pid 21736:tid 1872] [client 83.22.129.27:52296] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Fri Jul 05 20:56:16.506854 2024] [core:warn] [pid 25584:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jul 05 20:56:16.532623 2024] [mpm_winnt:notice] [pid 25584:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Fri Jul 05 20:56:16.532623 2024] [mpm_winnt:notice] [pid 25584:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Jul 05 20:56:16.532623 2024] [core:notice] [pid 25584:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Jul 05 20:56:16.535125 2024] [mpm_winnt:notice] [pid 25584:tid 436] AH00418: Parent: Created child process 28468
+[Fri Jul 05 20:56:16.746093 2024] [mpm_winnt:notice] [pid 28468:tid 428] AH00354: Child: Starting 150 worker threads.
+[Fri Jul 05 21:04:05.031841 2024] [proxy:error] [pid 28468:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Fri Jul 05 21:04:05.031841 2024] [proxy_http:error] [pid 28468:tid 1872] [client 83.22.129.27:52521] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Tue Jul 16 23:39:41.321890 2024] [core:warn] [pid 30328:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 16 23:39:41.545983 2024] [mpm_winnt:notice] [pid 30328:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Tue Jul 16 23:39:41.545983 2024] [mpm_winnt:notice] [pid 30328:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Jul 16 23:39:41.545983 2024] [core:notice] [pid 30328:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Jul 16 23:39:41.549485 2024] [mpm_winnt:notice] [pid 30328:tid 436] AH00418: Parent: Created child process 31640
+[Tue Jul 16 23:39:41.772780 2024] [mpm_winnt:notice] [pid 31640:tid 436] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 17 12:27:58.796349 2024] [core:warn] [pid 22336:tid 452] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 17 12:28:00.699550 2024] [mpm_winnt:notice] [pid 22336:tid 452] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jul 17 12:28:00.700550 2024] [mpm_winnt:notice] [pid 22336:tid 452] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jul 17 12:28:00.700550 2024] [core:notice] [pid 22336:tid 452] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jul 17 12:28:00.702550 2024] [mpm_winnt:notice] [pid 22336:tid 452] AH00418: Parent: Created child process 21600
+[Wed Jul 17 12:28:00.913694 2024] [mpm_winnt:notice] [pid 21600:tid 428] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 17 12:28:27.718970 2024] [proxy:error] [pid 21600:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 12:28:27.718970 2024] [proxy_http:error] [pid 21600:tid 1872] [client 83.22.110.84:50458] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 12:28:32.642936 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 12:28:32.642936 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:50459] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 12:52:36.486694 2024] [core:error] [pid 21600:tid 1872] [client 164.92.71.158:58946] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Wed Jul 17 12:52:37.117704 2024] [core:error] [pid 21600:tid 1872] [client 164.92.71.158:58952] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Wed Jul 17 14:01:17.280045 2024] [php:error] [pid 21600:tid 1872] [client 92.223.86.20:5910] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 17 14:02:27.184808 2024] [php:error] [pid 21600:tid 1872] [client 92.223.86.20:5919] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 17 19:15:09.985746 2024] [php:error] [pid 21600:tid 1832] [client 18.181.170.181:48494] script 'C:/website/wp-login.php' not found or unable to stat
+[Wed Jul 17 19:28:07.431477 2024] [core:error] [pid 21600:tid 1832] [client 203.34.56.254:37020] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Wed Jul 17 19:28:11.448047 2024] [core:error] [pid 21600:tid 1832] [client 203.34.56.254:58544] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Wed Jul 17 21:26:39.985796 2024] [php:error] [pid 21600:tid 1832] [client 156.146.56.138:54502] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 17 21:34:17.623824 2024] [php:error] [pid 21600:tid 1832] [client 156.146.56.138:35516] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Wed Jul 17 23:37:13.695375 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:13.695375 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55283] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:19.253962 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:19.253962 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55289] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:24.239473 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:24.239473 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55290] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:29.227708 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:29.227708 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55294] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:34.253446 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:34.253446 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55301] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:39.281371 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:39.281371 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55305] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:44.274520 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:44.274520 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55330] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:49.259717 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:49.259717 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55333] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:54.278676 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:54.278676 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55336] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:37:59.280512 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:37:59.280512 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55342] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:38:04.289439 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:38:04.289439 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55346] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:38:09.285630 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:38:09.285630 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55352] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:38:14.252129 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:38:14.252129 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55356] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:38:37.247438 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:38:37.247438 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55370] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:39:37.264754 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:39:37.264754 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55390] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:40:37.292860 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:40:37.292860 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55403] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:41:37.312324 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:41:37.312324 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55418] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:27.290882 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:27.290882 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55429] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:31.395655 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:31.395655 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55428] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:35.505532 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:35.505532 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55437] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:39.586489 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:39.586489 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55440] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:44.270442 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:44.270442 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55451] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:49.298527 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:49.298527 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55452] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:54.283153 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:54.283153 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55458] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:42:59.274307 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:42:59.274307 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55462] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:43:04.264365 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:43:04.264365 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55467] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:43:09.291364 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:43:09.291364 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55470] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:43:14.275283 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:43:14.275283 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55473] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:43:19.298224 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:43:19.298224 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55490] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:43:24.253916 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:43:24.253916 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55491] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:43:37.256141 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:43:37.256141 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55500] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:44:37.290526 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:44:37.290526 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55521] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:45:37.279013 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:45:37.279013 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55543] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:46:37.335293 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:46:37.335293 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55554] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:47:37.273421 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:47:37.273421 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55580] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:48:11.750397 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:48:11.750397 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55586] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:48:15.838799 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:48:15.838799 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55587] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:48:19.904632 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:48:19.904632 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55626] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:48:24.284514 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:48:24.284514 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55633] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:48:29.262807 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:48:29.262807 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55632] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:48:34.276145 2024] [proxy:error] [pid 21600:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:48:34.276145 2024] [proxy_http:error] [pid 21600:tid 1856] [client 83.22.110.84:55639] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:49:09.231205 2024] [proxy:error] [pid 21600:tid 1864] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:49:09.231205 2024] [proxy_http:error] [pid 21600:tid 1864] [client 83.22.110.84:55680] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:49:37.232298 2024] [proxy:error] [pid 21600:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Wed Jul 17 23:49:37.232298 2024] [proxy_http:error] [pid 21600:tid 1848] [client 83.22.110.84:55703] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Wed Jul 17 23:56:00.380221 2024] [mpm_winnt:crit] [pid 21600:tid 428] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jul 18 11:34:28.982190 2024] [core:warn] [pid 11528:tid 464] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 18 11:34:29.168041 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Thu Jul 18 11:34:29.168041 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu Jul 18 11:34:29.168041 2024] [core:notice] [pid 11528:tid 464] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Jul 18 11:34:29.170576 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00418: Parent: Created child process 6048
+[Thu Jul 18 11:34:29.382341 2024] [mpm_winnt:notice] [pid 6048:tid 432] AH00354: Child: Starting 150 worker threads.
+[Thu Jul 18 11:35:12.000478 2024] [authz_core:error] [pid 6048:tid 1872] [client 83.22.110.84:50575] AH01630: client denied by server configuration: C:/website/server.js
+[Thu Jul 18 11:38:30.546181 2024] [authz_core:error] [pid 6048:tid 1852] [client 83.22.110.84:50701] AH01630: client denied by server configuration: C:/website/server.mjs
+[Thu Jul 18 15:19:40.672820 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00428: Parent: child process 6048 exited with status 1073807364 -- Restarting.
+[Thu Jul 18 15:19:40.777526 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Thu Jul 18 15:19:40.777526 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu Jul 18 15:19:40.777526 2024] [core:notice] [pid 11528:tid 464] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Jul 18 15:19:40.781527 2024] [mpm_winnt:notice] [pid 11528:tid 464] AH00418: Parent: Created child process 15088
+[Thu Jul 18 15:19:40.786008 2024] [mpm_winnt:crit] [pid 11528:tid 464] AH00419: master_main: create child process failed. Exiting.
+[Fri Jul 19 17:57:09.737205 2024] [mpm_winnt:notice] [pid 10960:tid 440] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Fri Jul 19 17:57:09.737205 2024] [mpm_winnt:notice] [pid 10960:tid 440] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Fri Jul 19 17:57:09.737205 2024] [core:notice] [pid 10960:tid 440] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Jul 19 17:57:09.740255 2024] [mpm_winnt:notice] [pid 10960:tid 440] AH00418: Parent: Created child process 8276
+[Fri Jul 19 17:57:09.970419 2024] [mpm_winnt:notice] [pid 8276:tid 452] AH00354: Child: Starting 150 worker threads.
+[Sat Jul 20 22:23:03.089524 2024] [core:warn] [pid 40116:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jul 20 22:23:03.304215 2024] [mpm_winnt:notice] [pid 40116:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Jul 20 22:23:03.304215 2024] [mpm_winnt:notice] [pid 40116:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Jul 20 22:23:03.304215 2024] [core:notice] [pid 40116:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Jul 20 22:23:03.307213 2024] [mpm_winnt:notice] [pid 40116:tid 424] AH00418: Parent: Created child process 40756
+[Sat Jul 20 22:23:03.545252 2024] [mpm_winnt:notice] [pid 40756:tid 476] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 22 14:14:35.536519 2024] [core:warn] [pid 28468:tid 436] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 22 14:14:35.769830 2024] [mpm_winnt:notice] [pid 28468:tid 436] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 22 14:14:35.769830 2024] [mpm_winnt:notice] [pid 28468:tid 436] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 22 14:14:35.769830 2024] [core:notice] [pid 28468:tid 436] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 22 14:14:35.772830 2024] [mpm_winnt:notice] [pid 28468:tid 436] AH00418: Parent: Created child process 21824
+[Mon Jul 22 14:14:35.997019 2024] [mpm_winnt:notice] [pid 21824:tid 444] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 22 16:34:26.706354 2024] [php:error] [pid 21824:tid 1868] [client 149.88.106.141:42156] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 22 16:42:00.844921 2024] [php:error] [pid 21824:tid 1868] [client 149.88.106.141:36090] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 22 17:55:10.546736 2024] [php:error] [pid 21824:tid 1872] [client 92.223.85.72:6649] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 22 17:56:06.289557 2024] [php:error] [pid 21824:tid 1860] [client 92.223.85.72:6630] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Mon Jul 29 16:36:53.224301 2024] [core:warn] [pid 6412:tid 452] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 29 16:36:53.420315 2024] [mpm_winnt:notice] [pid 6412:tid 452] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Jul 29 16:36:53.420315 2024] [mpm_winnt:notice] [pid 6412:tid 452] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Jul 29 16:36:53.420315 2024] [core:notice] [pid 6412:tid 452] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Jul 29 16:36:53.422817 2024] [mpm_winnt:notice] [pid 6412:tid 452] AH00418: Parent: Created child process 25644
+[Mon Jul 29 16:36:53.639659 2024] [mpm_winnt:notice] [pid 25644:tid 432] AH00354: Child: Starting 150 worker threads.
+[Mon Jul 29 16:37:12.752278 2024] [proxy:error] [pid 25644:tid 1852] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 16:37:12.752278 2024] [proxy_http:error] [pid 25644:tid 1852] [client 83.22.158.65:56214] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 16:40:52.428606 2024] [proxy:error] [pid 25644:tid 1840] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 16:40:52.428606 2024] [proxy_http:error] [pid 25644:tid 1840] [client 83.22.158.65:56252] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 16:41:20.535312 2024] [proxy:error] [pid 25644:tid 1840] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 16:41:20.535312 2024] [proxy_http:error] [pid 25644:tid 1840] [client 83.22.158.65:56266] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 17:06:39.122670 2024] [proxy:error] [pid 25644:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 17:06:39.122670 2024] [proxy_http:error] [pid 25644:tid 1848] [client 83.22.158.65:56808] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 17:06:44.732626 2024] [proxy:error] [pid 25644:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 17:06:44.732626 2024] [proxy_http:error] [pid 25644:tid 1848] [client 83.22.158.65:56823] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 17:06:49.726881 2024] [proxy:error] [pid 25644:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 17:06:49.726881 2024] [proxy_http:error] [pid 25644:tid 1872] [client 83.22.158.65:56822] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 17:06:54.694371 2024] [proxy:error] [pid 25644:tid 1848] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 17:06:54.694371 2024] [proxy_http:error] [pid 25644:tid 1848] [client 83.22.158.65:56879] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Jul 29 17:35:15.625562 2024] [php:error] [pid 25644:tid 1848] [client 178.62.46.243:58400] script 'C:/website/wp-login.php' not found or unable to stat
+[Mon Jul 29 21:21:02.866701 2024] [proxy:error] [pid 25644:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Mon Jul 29 21:21:02.867210 2024] [proxy_http:error] [pid 25644:tid 1872] [client 43.131.243.208:45200] AH01114: HTTP: failed to make connection to backend: localhost
+[Sat Aug 03 12:55:32.737815 2024] [core:warn] [pid 21740:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 03 12:55:32.966135 2024] [mpm_winnt:notice] [pid 21740:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Aug 03 12:55:32.966135 2024] [mpm_winnt:notice] [pid 21740:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Aug 03 12:55:32.966135 2024] [core:notice] [pid 21740:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Aug 03 12:55:32.969136 2024] [mpm_winnt:notice] [pid 21740:tid 424] AH00418: Parent: Created child process 31096
+[Sat Aug 03 12:55:33.195333 2024] [mpm_winnt:notice] [pid 31096:tid 432] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 04 21:47:02.245481 2024] [core:warn] [pid 25300:tid 432] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Aug 04 21:47:02.449902 2024] [mpm_winnt:notice] [pid 25300:tid 432] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Aug 04 21:47:02.449902 2024] [mpm_winnt:notice] [pid 25300:tid 432] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Aug 04 21:47:02.449902 2024] [core:notice] [pid 25300:tid 432] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Aug 04 21:47:02.452896 2024] [mpm_winnt:notice] [pid 25300:tid 432] AH00418: Parent: Created child process 25404
+[Sun Aug 04 21:47:02.676401 2024] [mpm_winnt:notice] [pid 25404:tid 428] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 04 21:49:22.773858 2024] [core:warn] [pid 26612:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Aug 04 21:49:22.800815 2024] [mpm_winnt:notice] [pid 26612:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Aug 04 21:49:22.800815 2024] [mpm_winnt:notice] [pid 26612:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Aug 04 21:49:22.800815 2024] [core:notice] [pid 26612:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Aug 04 21:49:22.803816 2024] [mpm_winnt:notice] [pid 26612:tid 424] AH00418: Parent: Created child process 26052
+[Sun Aug 04 21:49:23.044417 2024] [mpm_winnt:notice] [pid 26052:tid 456] AH00354: Child: Starting 150 worker threads.
+[Sun Aug 04 21:50:36.975259 2024] [proxy:error] [pid 26052:tid 1828] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sun Aug 04 21:50:36.975259 2024] [proxy_http:error] [pid 26052:tid 1828] [client 83.22.89.218:34118] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Mon Aug 05 12:51:17.836026 2024] [core:warn] [pid 20288:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 05 12:51:18.050911 2024] [mpm_winnt:notice] [pid 20288:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Aug 05 12:51:18.050911 2024] [mpm_winnt:notice] [pid 20288:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Aug 05 12:51:18.050911 2024] [core:notice] [pid 20288:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Aug 05 12:51:18.053902 2024] [mpm_winnt:notice] [pid 20288:tid 424] AH00418: Parent: Created child process 9732
+[Mon Aug 05 12:51:18.286236 2024] [mpm_winnt:notice] [pid 9732:tid 480] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 05 13:00:01.713028 2024] [php:error] [pid 9732:tid 1856] [client 159.203.13.2:44962] script 'C:/website/alive.php' not found or unable to stat
+[Sat Aug 10 20:10:18.356013 2024] [core:warn] [pid 35088:tid 424] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 10 20:10:18.581517 2024] [mpm_winnt:notice] [pid 35088:tid 424] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sat Aug 10 20:10:18.581517 2024] [mpm_winnt:notice] [pid 35088:tid 424] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sat Aug 10 20:10:18.581517 2024] [core:notice] [pid 35088:tid 424] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sat Aug 10 20:10:18.584584 2024] [mpm_winnt:notice] [pid 35088:tid 424] AH00418: Parent: Created child process 19928
+[Sat Aug 10 20:10:18.827494 2024] [mpm_winnt:notice] [pid 19928:tid 472] AH00354: Child: Starting 150 worker threads.
+[Sat Aug 10 20:24:02.617432 2024] [proxy:error] [pid 19928:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:02.617432 2024] [proxy_http:error] [pid 19928:tid 1856] [client 217.97.118.250:59509] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Sat Aug 10 20:24:07.626395 2024] [proxy:error] [pid 19928:tid 1872] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:07.626395 2024] [proxy_http:error] [pid 19928:tid 1872] [client 217.97.118.250:59510] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Sat Aug 10 20:24:12.830953 2024] [proxy:error] [pid 19928:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:12.830953 2024] [proxy_http:error] [pid 19928:tid 1856] [client 217.97.118.250:59534] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Sat Aug 10 20:24:17.703906 2024] [proxy:error] [pid 19928:tid 1840] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:17.703906 2024] [proxy_http:error] [pid 19928:tid 1840] [client 217.97.118.250:59554] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Sat Aug 10 20:24:22.696925 2024] [proxy:error] [pid 19928:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:22.696925 2024] [proxy_http:error] [pid 19928:tid 1856] [client 217.97.118.250:59564] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Sat Aug 10 20:24:42.684460 2024] [proxy:error] [pid 19928:tid 1840] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:42.684460 2024] [proxy_http:error] [pid 19928:tid 1840] [client 217.97.118.250:59565] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Sat Aug 10 20:24:47.689993 2024] [proxy:error] [pid 19928:tid 1856] (OS 10061)Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia.  : AH00957: http: attempt to connect to 127.0.0.1:3000 (localhost:3000) failed
+[Sat Aug 10 20:24:47.689993 2024] [proxy_http:error] [pid 19928:tid 1856] [client 217.97.118.250:59596] AH01114: HTTP: failed to make connection to backend: localhost, referer: https://kvvz.xyz/spying/
+[Thu Aug 15 11:56:17.175815 2024] [core:warn] [pid 21852:tid 444] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 15 11:56:17.381224 2024] [mpm_winnt:notice] [pid 21852:tid 444] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Thu Aug 15 11:56:17.381224 2024] [mpm_winnt:notice] [pid 21852:tid 444] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Thu Aug 15 11:56:17.381224 2024] [core:notice] [pid 21852:tid 444] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Aug 15 11:56:17.384760 2024] [mpm_winnt:notice] [pid 21852:tid 444] AH00418: Parent: Created child process 9352
+[Thu Aug 15 11:56:17.607486 2024] [mpm_winnt:notice] [pid 9352:tid 476] AH00354: Child: Starting 150 worker threads.
+[Thu Aug 15 12:01:45.901681 2024] [php:error] [pid 9352:tid 1876] [client 149.88.106.203:55904] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Thu Aug 15 12:16:29.368824 2024] [php:error] [pid 9352:tid 1856] [client 149.88.106.203:46128] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Thu Aug 15 12:38:57.708638 2024] [php:error] [pid 9352:tid 1856] [client 146.70.205.140:40938] script 'C:/website/xmlrpc.php' not found or unable to stat
+[Thu Aug 15 12:39:10.017393 2024] [php:error] [pid 9352:tid 1856] [client 146.70.205.140:48156] script 'C:/website/xmlrpc.php' not found or unable to stat

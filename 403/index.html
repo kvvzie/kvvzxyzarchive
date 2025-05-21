@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img class="blackbackground" src="/images/black.jpg">
+    <div id="background-container">
+        <video autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>don't do that again</title>
+    <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js"></script>
+    <script src="/color-thief.umd.js"></script>
+</head>
+<body onload="onPageLoaded()" class="monospace">
+    <div class="container">
+        <div><b>
+            <h1 id="welcomeText" class="lime hidden">how tf did u get here?</h1><br>
+            <a>just leave...ok?</a>
+            <table>
+                <thead>
+                    <tr>
+                        <th><a class="coral" href="/">home</a></th>
+                        <th><a class="coral" href="/socials">socials</a></th>
+                        <th><a class="coral" href="/code-credit">code credit</a></th>
+                        <th><a class="coral" href="/spying">spying</a></th>
+                        <th><a class="coral" href="/pictures">pictures</a></th>
+                    </tr>
+                </thead>
+            </table>
+            <a id="pidgeon-link" href="#"><img src="/images/pidgeon.gif" width="1700" height="700"></a>
+            <br><br>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const textElement = document.getElementById("welcomeText");
+                const text = textElement.innerHTML;
+                textElement.innerHTML = "";
+                textElement.classList.remove("hidden");
+                
+                let index = 0;
+
+                function typeWriter() {
+                    if (index < text.length) {
+                        textElement.innerHTML += text.charAt(index);
+                        index++;
+                        setTimeout(typeWriter, 100);
+                    }
+                }
+
+                typeWriter();
+            });
+        </script>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="/music/hellnawh.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+
+        const pidgeonLink = document.getElementById("pidgeon-link");
+        const audioElement = document.getElementById("background-music");
+
+        pidgeonLink.addEventListener("click", function(event) {
+            event.preventDefault();
+            if (audioElement) {
+                audioElement.volume = 0.5;
+                audioElement.play();
+            }
+        });
+    </script>
+</body>
+</html>

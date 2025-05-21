@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img class="blackbackground" src="/images/black.jpg">
+    <div id="background-container">
+        <video autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>pictures</title>
+    <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js"></script>
+    <script src="/color-thief.umd.js"></script>
+</head>
+<body onload="onPageLoaded()">
+    <div class="container">
+        <div><b>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="/images/pidgeon.gif" width="275" height="125">
+            </a>
+            <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th><a class="coral" href="/">home</a></th>
+                        <th><a class="coral" href="/socials">socials</a></th>
+                        <th><a class="coral" href="/code-credit">code credit</a></th>
+                        <th><a class="coral" href="/spying">spying</a></th>
+                        <th><a class="text" >*</a><a class="coral" href="/pictures">pictures</a></th>
+                    </tr>
+                </thead>
+            </table>
+            <br><br>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const textElement = document.getElementById("welcomeText");
+                const text = textElement.innerHTML;
+                textElement.innerHTML = "";
+                textElement.classList.remove("hidden");
+                
+                let index = 0;
+    
+                function typeWriter() {
+                    if (index < text.length) {
+                        textElement.innerHTML += text.charAt(index);
+                        index++;
+                        setTimeout(typeWriter, 100);
+                    }
+                }
+    
+                typeWriter();
+            });
+        </script>
+        <div class="lime">
+            gang (。・ω・。)
+        </div>
+        <div class="lime">
+            <div class="image-container-link">
+                <img class="image-with-glow" src="/images/gang1.jpg" width="250" height="250">
+                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/macius8_/">@macius8_</a></span>
+            </div>
+            <div class="image-container-link">
+                <img class="image-with-glow" src="/images/gang2.jpg" width="250" height="250">
+                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/j3xy_.3kkk/">@j3xy_.3kkk</a></span>
+            </div>
+            <div class="image-container-link">
+                <img class="image-with-glow" src="/images/gang3.jpg" width="250" height="250">
+                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/majkaa.777/">@majkaa.777</a></span>
+            </div>
+            <div class="image-container-link">
+                <img class="image-with-glow" src="/images/gang4.jpg" width="250" height="250">
+                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/wielkikutasbobra/">@wielkikutasbobra</a></span>
+            </div>
+            <div class="image-container-link">
+                <img class="image-with-glow" src="/images/gang5.jpg" width="250" height="250">
+                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/fi3i1_/">@fi3i1_</a></span>
+            </div>
+        </div>
+        <br>
+        <div class="lime">
+            me ◑﹏◐
+        </div>
+        <div class="lime">
+            <img class="image-with-glow" src="/images/me.jpg" width="250" height="250">
+            <img class="image-with-glow" src="/images/me2.jpg" width="250" height="250">
+            <img class="image-with-glow" src="/images/me3.jpg" width="250" height="250">
+            <img class="image-with-glow" src="/images/me4.jpg" width="250" height="250">
+            <img class="image-with-glow" src="/images/me5.jpg" width="250" height="250">
+        </div>
+        <br>
+        <div class="lime">
+            kitties :3
+        </div>
+
+        <div class="lime">
+            <img class="image-with-glow" src="/images/kitty.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty1.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty2.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty3.jpg" width="200" height="200"> 
+            <img class="image-with-glow" src="/images/kitty4.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty5.jpg" width="200" height="200">
+        </div>
+        <div class="lime">
+            <img class="image-with-glow" src="/images/kitty6.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty7.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty8.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty9.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty10.jpg" width="200" height="200">
+            <img class="image-with-glow" src="/images/kitty11.jpg" width="200" height="200">
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <img class="disc" src="/images/disc.png" width="50" height="50">
+        <span class="hover-text"></span>
+    </div>
+
+
+    <audio id="background-music">
+        <source id="audio-source" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audioElement = document.getElementById('background-music');
+            if (audioElement) {
+                audioElement.volume = 0.3;
+                audioElement.play();
+            }
+        });
+    </script>
+</body>
+</html>
