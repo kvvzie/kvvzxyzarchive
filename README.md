@@ -11,3 +11,5 @@ some had to be removed for privacy
 but u can still probably dox me from those left
 
 visit kvvz.xyz to see how the website looks now
+
+![kvvzxyzarchived](https://github.com/user-attachments/assets/7087e157-8491-4f08-afcc-64a21e74f085)
