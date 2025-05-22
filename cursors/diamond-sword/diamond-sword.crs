@@ -1,0 +1,30 @@
+﻿[Arrow]
+Path=Normal Select.cur
+
+[Hand]
+Path=Link Select.cur
+
+[AppStarting]
+Path=Working in Background.ani
+
+[Wait]
+Path=Busy.ani
+
+[Help]
+Path=Help Select.cur
+
+[No]
+Path=Unavailable.cur
+
+[SizeNWSE]
+Path=Diagonal Resize 1.cur
+
+[SizeNESW]
+Path=Diagonal Resize 2.cur
+
+[SizeWE]
+Path=Horizontal Resize.cur
+
+[IBeam]
+Path=Text.cur
+

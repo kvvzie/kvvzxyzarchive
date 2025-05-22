@@ -1,0 +1,51 @@
+﻿[Arrow]
+Path=Pusheen Normal Select.ani
+
+[Help]
+Path=Pusheen help select.ani
+
+[AppStarting]
+Path=Pusheen working in background.ani
+
+[IBeam]
+Path=Pusheen Text Select.ani
+
+[SizeNWSE]
+Path=Pusheen Diagonal Resize 1.ani
+
+[SizeNESW]
+Path=Pusheen Diagonal Resize 2.ani
+
+[SizeNS]
+Path=Pusheen Vertical Resize.ani
+
+[SizeWE]
+Path=Pusheen Horizontal Resize.ani
+
+[Wait]
+Path=Pusheen Busy.ani
+
+[No]
+Path=Pusheen Unavailable.ani
+
+[SizeAll]
+Path=Pusheen Move.ani
+
+[UpArrow]
+Path=Pusheen Alternate Select.ani
+
+[Hand]
+Path=Pusheen Link Select.ani
+
+[Pin]
+Path=Pusheen Location Select.ani
+
+[Person]
+Path=Pusheen Person Select.ani
+
+[Crosshair]
+Path=Pusheen Precision Select Grey.ani
+
+[NWPen]
+Path=Pusheen Handwriting Dark Pink.ani
+

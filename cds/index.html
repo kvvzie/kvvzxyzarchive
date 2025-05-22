@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img class="blackbackground" src="/images/black.jpg">
+    <div id="background-container">
+        <video class="background" autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>code credit | kvvz.xyz</title>
+    <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js"></script>
+    <script src="/color-thief.umd.js"></script>
+    <style>
+        .fixed-player {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 25px;
+            background-color: #000;
+            padding: 10px;
+            z-index: 1000;
+        }
+        .fixed-name {
+            position: fixed;
+            bottom: 4%;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        #now-playing {
+            color: #fff;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body onload="onPageLoaded()" style="overflow: scroll;">
+    <div class="container">
+        <div><b>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="/images/pidgeon.gif" width="275" height="125">
+            </a>
+            <h1 id="welcomeText" class="lime hidden">fight club</h1><br>
+            <table class="navigation">
+                <thead>
+                    <tr>
+                        <th><a class="coral" href="/">home</a></th>
+                        <th><a class="coral" href="/interests">interests</a></th>
+                        <th><a class="coral" href="/code-credit">code credit</a></th>
+                        <th><a class="coral" href="/spying">spying</a></th>
+                        <th><a class="coral" href="/pictures">pictures</a></th>
+                        <th><a class="coral" href="/donations">donations</a></th>
+                        <th><a class="star">*</a></th>
+                    </tr>
+                </thead>
+            </table>
+            <br><br>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const textElement = document.getElementById("welcomeText");
+                const text = textElement.innerHTML;
+                textElement.innerHTML = "";
+                textElement.classList.remove("hidden");
+                
+                let index = 0;
+    
+                function typeWriter() {
+                    if (index < text.length) {
+                        textElement.innerHTML += text.charAt(index);
+                        index++;
+                        setTimeout(typeWriter, 100);
+                    }
+                }
+    
+                typeWriter();
+            });
+        </script>
+
+        <audio id="music-player" controls class="fixed-player">
+            <source id="audio-source" src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div id="now-playing" class="fixed-name">
+            Now playing: <span id="current-track">None</span>
+        </div>
+
+        <div class="lime">
+            <div id="music-list-container">
+                <h2>first rule of the fight club</h1>
+                <h2>we dont talk about the fight club</h1>
+                <ul id="music-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const musicDirectory = "/music/";
+            const musicFiles = [
+        '10 10in a Benz.mp3',
+        '187th_Unreleased.mp3',
+        'State_Of_Mind_-_A_New_State_Of_Mind_Snippet.mp3',
+        '06 All I Need.mp3',
+        'Babys_Coming_ft._The_Go_Getters.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 1.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 2.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 3.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 4.mp3',
+        'Kanye West - Beat 5.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 5.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 6.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 7.mp3',
+        'Unreleased Kanye Beat Tape (C. Sept 97) Beat 8.mp3',
+        '04 Dem Guys.mp3',
+        '12._Dream_Come_True_All_Falls_Down_Demo.mp3',
+        '00_-_Ever_Since.mp3',
+        '11-kanye_west-family_business.mp3',
+        '09 Fight With The Best.mp3',
+        '13-kanye_west-freestyle.mp3',
+        'Kanye_West_-_Gotta_Pose_Unreleased.mp3',
+        '03-kanye_west-have_it_your_way.mp3',
+        'Heartbeat [Instrumental].mp3',
+        '09-kanye_west-hey_mama.mp3',
+        '01-kanye_west-home_windy.mp3',
+        '06_-_Need_To_Know_Original_Gangsta_Version.mp3',
+        '01 World Record Holders Intro.mp3',
+        '02-kanye_west-jesus_walks.mp3',
+        '10-kanye_west-know_the_game.mp3',
+        '14-kanye_west-last_freestyle.mp3',
+        '2-19 Beat 19.mp3',
+        'Smoke__Numbers_-_Motherfucker_V2_-_D12_World.mp3',
+        '12 Mind Your Business.mp3',
+        '08-kanye_west-never_letting_go_the_stalker_song.mp3',
+        '03-Kanye_West-The_Stalker_Song_Never_Lettin_Go_Unreleased.mp3',
+        '08 No Luv.mp3',
+        '03 Nothin s Gonna Stop Me.mp3',
+        '04-kanye_west-out_of_your_mind.mp3',
+        '14 Beat 14.mp3',
+        '06_Payback_featuring_Timmy_G_and_Sly.mp3',
+        'Roommates_feat._Consequence.mp3',
+        'State_Of_Mind_Demo_Snippets.mp3',
+        '18-Weak_Azz_Producer_Skit_With_Kanye_West (online-audio-converter.com).mp3',
+        '02 World Record Holders.mp3',
+        '05-kanye_west-wow.mp3',
+        '05 - Ya Feel (with Go Getters).mp3',
+        '00_-_Youre_My_Type.mp3',
+        '2-04 Beat 4.mp3',
+        '2-03 Beat 3.mp3',
+        '10 Beat 10.mp3',
+        '09 Beat 9.mp3',
+        'Beat (1).mp3',
+        'Bathgate - That Girl (Produced By Kanye West).mp3',
+        'Birds_and_the_Bees.mp3',
+        '07 Foolish Game.mp3',
+        'ghetto_life_prod._kanye_west.mp3',
+        'Mikkey Halsted - Superstar.mp3',
+        'DJ_Toure_Stylz-Mikkey_Halsted-Best_You_nEver_Heard32-Mikkey_Halsted-Ten_Things.mp3',
+        'Mikkey Halsted - Who Am i.mp3',
+        '05 Ghetto Senorita.mp3',
+        '1.115_-_Keep_the_Receipt_feat._Ol_Dirty_Bastard_Alternate_Intro.mp3',//104
+// The College Dropout
+        'Kanye West performs 18 Years Gold Digger Demo for the first time.mp3',
+        '04-kanye_west-self_conscious-ecr.mp3',
+        '02_All_Falls_Down_feat._Lauryn_Hill.mp3',
+        '04 Kanye West feat. Lauryn Hill - All Falls Down.flac',
+        'Arguing_V2.mp3',
+        'Breathe_In_Breathe_Out_mp3-9b233c.mp3',
+        'Kanye West - Change Clothes Freestyle.mp3',
+        '02_Drug_Dealin_ft._GLC_Keyshia_Co.mp3',
+        '14-kanye_west-family_business-ecr.mp3',
+        '12 Family Affair.mp3',
+        '20 Kanye West - Family Business.flac',
+        'Get_em_high_og_waterfalls.mp3',
+        'Kanye_West_-_Get_Em_High_Demo_feat._Talib_Kweli.mp3',
+        '18_Gimme_The_Mic.m4a',
+        '11-kanye_west-gorgeous-ecr.mp3',
+        '15-kanye_west-hey_mama-ecr.mp3',
+        'Hey_Mama_mp3-315f9d.mp3',
+        '15 Home.mp3',
+        '18-kanye_west-i_need_to_know-tsw.mp3',
+        '07-kanye_west-i_need_to_know-ecr.mp3',
+        'Kanye West - I See now (OG) (Prod By 9th Wonder).mp3',
+        '05 Kanye West - Ill Fly Away.flac',
+        '13-kanye_west-untitled-ecr.mp3',
+        '01 Kanye West - Intro.flac',
+        '01_Intro.mp3',
+        'Kanye_West_-_Intro.wav',
+        'Jesus_Walks_feat._Rhymefest.mp3',
+        'JW_Multitrack_Vega.wav',
+        '08-kanye_west-jesus_walks-ecr.mp3',
+        '04_Jesus_Walks.mp3',
+        '03_Jesus_Walks_Intro.mp3',
+        '08 Keep The Receipt (feat. Dirt McGirt).mp3',
+        '21 Kanye West - Last Call.flac',
+        '10-kanye_west-untitled-ecr.mp3',
+        'Livin_A_Movie_mp3-f9db95.mp3',
+        '11 My Way.mp3',
+        'Never_Let_Me_Down_feat_JAY_Z_Saul_Williams_mp3-preview.mp3',
+        '05-kanye_west-niggas_gossip-ecr.mp3',
+        '15 Kanye West - School Spirit.flac',
+        'May_2003___Kanye_West___Slow_Jams_Extra_Verse.mp3',
+        'Slow_Jamz_V2_feat._Twista___Jamie_Foxx.mp3',
+        '06 The Good, The Bad and The Ugly.mp3',
+        '07 The New Workout Plan.mp3',
+        '11 Kanye West - The New Workout Plan',
+        '08 The Roc in Here.mp3',
+        'The Truth Freestyle.mp3',
+        '16 Together Theyre Tens.mp3',
+        'Two_Words_Solo.wav',
+        '01-10_Two_Words_feat._Mos_Def_Floetry_Original_Version.m4a',
+        '06-kanye_west-wack_niggas_feat_talib_kweli-ecr.mp3',
+        '22 Kanye West feat. Keyshia Cole - We Dont Care (reprise).flac',
+        'Kanye_West_-_Peace_Doing_Fine_Demo.mp3',
+        '02-kanye_west-untitled-ecr.mp3',
+        '12-kanye_west-wow-ecr.mp3',
+        '01-kanye_west-unreleased_instrumental-ecr.mp3',
+        'Aura - Crazy.mp3',
+        'Aura - Crazy (Second Semester).mp3',
+        'Carl_Thomas_-_The_Way_That_You_Do.mp3',
+        'Dead Prez - For the Hood.mp3',
+        'The Bounce Jeen Yuhs.mp3',
+        '17_Do_What_I_Gotta_Do_feat._Kanye_West.m4a.mp3',
+        '05_Candy.mp3',// 213
+// Late Registration
+        'bittersweet.mp3',
+        'Bittersweet_Poetry_OG_mp3-db63da.mp3',
+        '7_Celebration.mp3',
+        'Diamonds_From_Sierra_Leone.mp3',
+        'Gone_feat._Rhymefest.mp3',
+        'Hey_Mama_OG.mp3',
+        'Promised_Land_Pt1_snip.mp3',
+        'Touch_The_Sky_OG_feat._Robert_Glasper.mp3',
+        '01 YouAgain.mp3',
+        'Freestyle_Jam.wav',
+        'Bump J - Damn Girl (feat. Twista & Jagged Edge) (Prod By Kanye West)-Balanced-Medium.mp3',
+        '13_-_bump_jnobody_eats_but_me_feat_miriben_ari_and_j.mp3',
+        'Bump J. feat. John Legend - Nobody Eats But Me [Prod. by Kanye West].mp3',
+        'kanye studio.mp3',
+        '15_-_bump_jon_the_run_feat_rick_james_produced_by_k.mp3',
+        '17_-_Bump_J_Pusha_Man.mp3',
+        'Bump J - Pusha Man Remix feat. Kanye West.mp3',
+        'Bump J - Pusha Man (Feat. Kanye West, Keyshia Cole & Rhymefest).wmv.mp3',
+        'Bump J Ft. Kanye West Keyshia Cole Rhymefest & Sly Polaroid - Pusha Man (Chi Town Remix).mp3',
+        'Common_-_Be_Part_2_Produced_Kanye_West_unreleased.mp3',
+        '12-common_ft._john_legend_and_consequence-they_say_origianl_version_with_consequence_verse-3am.mp3',
+        'Common - They Say (Remix) (feat. Kanye West & Consequence) Unreleased (FullNo DJ).mp3',
+        '08_Corner_remix_f_kanye_west_common.mp3',
+        'Touch_it_Kanye_Ref_Hook_RUFF.mp3',
+        'Track01.mp3',
+        'Jennifer Lopez - Get Right (Get Remixed!) (Featuring Kanye West, Hasan, Fabolous & Jinx) UNRELEASED.mp3',
+        '02-Shawnna_Ft_Kayne_West-Chicago_Shit-webbz.mp3',
+        'Game-Dreams__Original_Version_-2dope.mp3',// 274
+// Graduation
+        'Ayyyy_Track_finished_snippet.mp3',
+        'Barry_Bonds.mp3',
+        'STORY BEGINS.. RUFF 1.aif',
+        'Champion_Singing_Idea_-_Tagged.mp3',
+        'building ft jay z.wav',
+        'champion_big_sean.mp3',
+        'DRUNK N HOT GIRLS 2.24.07ADRUFF_03.aif',
+        'Flashing_Lights_feat._Clipse.mp3',
+        'Flashing_Lights_feat._Raheem_DeVaughn.mp3',
+        'Kanye West making good life.mp3',
+        'GOODLIFE.aif',
+        'Moring_Ruff_RUFF_trk_050606.02-M3NT_02.m4a',
+        'Goodbye 2.17.07 ADRUFF_03.aif',
+        'Got_Money.mp3',
+        'Homecoming_ADMIX.1_compressed_01-01.wav',
+        'iwaltbleedeq.mp3',
+        'PianoVox24-11Ruff.aif',
+        'Stronger_OG.mp3',
+        'Stronger_Mike_Dean_Mix_9.mp3',
+        'The Dream - Bed.mp3',
+        'South_Side_Ruff_01.18.06.mp3',
+        '1.53_-_Southside_Superbowl.mp3',
+        'Common_-_Strange_Fruit_feat._John_Legend_prod._Kanye_West.mp3',
+        '01_Dont_Forgetem_REMIX_FINAL_w_Drops.mp3',
+        'Everything_I_ve_Got_feat._Termanology.mp3',
+        'Arms_Race_RMX_Kanye_Verse_2.12.08-M3NT_04-04.aif',
+        '17_This_Aint_a_Scene_Its_an_Arms_Race_Remix.mp3',
+        'Fall Out Boy - Arms Race (Remix) (feat. Kanye West, Gym Class Heroes, Mickey Factz & Lil Wayne).mp3',
+        'Lil_Wayne_-_Did_It_Before_prod._Kanye_West.mp3',
+        'Mos_Def_-_The_Light_Is_Not_Afraid_Of_The_Dark_prod._Kanye_West.mp3',
+        'Nicole_Scherzinger_-_Loser_feat._Kanye_West.mp3',
+        'Stack Bundles Ft Kanye West-Did It My Way (Prod. By Kanye West).mp3',
+        'Stack Bundles ft. Kanye West - Did It My Way (Unreleased).mp3',
+        'ye_big_munny_remix.mp3',
+        'T.I._-_On_Top_Of_The_World_feat._Kanye_West___B.o.B.mp3',// 343
+// 808s & Heartbreak
+        'The-Dream - Amazing (Remix) Ft Christina Milian_(EEMUSIC.ru).mp3',
+        '04-amazing-vlado-master-11_6b.mp3',
+        'Hartless_1st_and_2nd_Verse_RUFF.mp3',
+        '1-01-heartless.mp3',
+        'Heartless_-_Vlado_11_6b.mp3',
+        'Hot_Sauce_feat._John_Legend.mp3',
+        '01_LoveLockdown_V2ADMix-Main_9-15-08.mp3',
+        'Love Lockdown -v3-.mp3',
+        'Love_Lockdown_-_Vlado_Master_11_6b.mp3',
+        'Anyway.1_RUFF_ye_vox.aif',
+        'Anyway_88_REF_05.aif',
+        'Anyway.07_quence_rev_verses_09.mp3',
+        'Anyway_Ref3_Main_Vladobounce.mp3',
+        '08_Real_Bad_News.mp3',
+        'Robocop RUFF ye REF.wav',
+        'RobocopRef-Vlado_.Main_mp3.mp3',
+        'Robocopv2.mp3',
+        'Robocop2.mp3',
+        'sayyouwill2.mp3',
+        '07_Say_You_Will.mp3',
+        'See_You_In_My_Nightmares_Bumptempo_Squeak_E._Clean.mp3',
+        'STreetlights.1_RUFF.wav',
+        'street lights.mp3',
+        'Takin_off.mp3',
+        'nova.mp3',
+        '10_Tell_Everybody_That_You_Know.mp3',
+        'Tell_-Everybody-That-You-Know-Final.mp3',
+        'pain.mp3',
+        'Welcome_To_Heartbreak_Demo.mp3',
+        'What_It_Is.mp3',
+        'bring it back.mp3',
+        'Kardinal Offishall &  Drake - Forever OG V1.mp3',
+        'kidd kidd and wayne forever.mp3',
+        'Its The Cons TV Everybody Nose Remix Session.mp3', // 418
+// Good Ass Job
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+
+// The College Dropout - Kanye West
+        'intro.mp3',
+        'wedontcare.mp3',
+        'graduationday.mp3',
+        'allfallsdown.mp3',
+        'illflyaway.mp3',
+        'spaceship.mp3',
+        'jesuswalks.mp3',
+        'neverletmedown.mp3',
+        'getemhigh.mp3',
+        'workoutplan.mp3',
+        'thenewworkoutplan.mp3',
+        'slowjamz.mp3',
+        'breatheinbreatheout.mp3',
+        'schoolspiritskit1.mp3',
+        'schoolspirit.mp3',
+        'schoolspiritskit2.mp3',
+        'liljimmyskit.mp3',
+        'twowords.mp3',
+        'throughthewire.mp3',
+        'familybusiness.mp3',
+        'lastcall.mp3',
+        'heavyhitters.mp3',
+        'livininamoviepart1.mp3',
+        'livininamoviepart2.mp3',
+// Graduation - Kanye West
+        'goodmorning.mp3',
+        'champion.mp3',
+        'stronger.mp3',
+        'iwonder.mp3',
+        'goodlife.mp3',
+        'canttellmenothing.mp3',
+        'barrybonds.mp3',
+        'drunkandhotgirls.mp3',
+        'flashinglights.mp3',
+        'everythingiam.mp3',
+        'theglory.mp3',
+        'homecoming.mp3',
+        'bigbrother.mp3',
+        'goodnight.mp3',
+        'bittersweetpoetry.mp3',
+// 808s & Heartbreak - Kanye West
+        'sayyouwill.mp3',
+        'welcometoheartbreak.mp3',
+        'heartless.mp3',
+        'amazing.mp3',
+        'lovelockdown.mp3',
+        'paranoid.mp3',
+        'robocop.mp3',
+        'streetlights.mp3',
+        'badnews.mp3',
+        'seeyouinmynightmares.mp3',
+        'coldestwinter.mp3',
+        'pinocchiostory.mp3',
+// My Beautiful Dark Twisted Fantasy - Kanye West
+        'darkfantasy.mp3',
+        'gorgeous.mp3',
+        'power.mp3',
+        'allofthelightsinterlude.mp3',
+        'allofthelights.mp3',
+        'monster.mp3',
+        'soappalled.mp3',
+        'devilinanewdress.mp3',
+        'runaway.mp3',
+        'hellofalife.mp3',
+        'blamegame.mp3',
+        'lostintheworld.mp3',
+        'whowillsurviveinamerica.mp3',
+// Yeezus - Kanye West
+        'onsight.mp3',
+        'blackskinhead.mp3',
+        'iamagod.mp3',
+        'newslaves.mp3',
+        'holdmyliquor.mp3',
+        'iminit.mp3',
+        'bloodontheleaves.mp3',
+        'guilttrip.mp3',
+        'senditup.mp3',
+        'bound2.mp3',
+// The Life Of Pablo - Kanye West
+        'ultralightbeam.mp3',
+        'fatherstreatchmyhandspt1.mp3',
+        'pt2.mp3',
+        'famous.mp3',
+        'feedback.mp3',
+        'lowlights.mp3',
+        'highlights.mp3',
+        'freestyle4.mp3',
+        'ilovekanye.mp3',
+        'waves.mp3',
+        'fml.mp3',
+        'realfriends.mp3',
+        'wolves.mp3',
+        'frankstrack.mp3',
+        'silversurferintermission.mp3',
+        '30hours.mp3',
+        'nomorepartiesinla.mp3',
+        'facts.mp3',
+        'fade.mp3',
+        'saintpablo.mp3',
+// ye - Kanye West
+        'ithoughtaboutkillingyou.mp3',
+        'yikes.mp3',
+        'allmine.mp3',
+        'wouldntleave.mp3',
+        'nomistakes.mp3',
+        'ghosttown.mp3',
+        'violentcrimes.mp3',
+// MM..FOOD - MF DOOM
+        'onebeer.mp3',
+            ];
+
+            const musicList = document.getElementById("music-list");
+            const musicPlayer = document.getElementById("music-player");
+            const audioSource = document.getElementById("audio-source");
+            const currentTrack = document.getElementById("current-track");
+
+            function createMusicItem(fileName) {
+                const listItem = document.createElement("li");
+                const playButton = document.createElement("button");
+                const downloadLink = document.createElement("a");
+
+                playButton.textContent = "Play";
+                playButton.addEventListener("click", function () {
+                    audioSource.src = musicDirectory + fileName;
+                    musicPlayer.load();
+                    musicPlayer.play();
+                    currentTrack.textContent = fileName;
+                    console.log("Playing: " + fileName);
+                });
+
+                downloadLink.textContent = "Download";
+                downloadLink.href = musicDirectory + fileName;
+                downloadLink.download = fileName;
+
+                listItem.textContent = fileName;
+                listItem.appendChild(playButton);
+                listItem.appendChild(downloadLink);
+                musicList.appendChild(listItem);
+            }
+
+            musicFiles.forEach(createMusicItem);
+        });
+    </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audioElement = document.getElementById('background-music');
+            if (audioElement) {
+                audioElement.volume = 0.3;
+                audioElement.play();
+            }
+        });
+    </script>
+</body>
+</html>

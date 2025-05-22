@@ -1,0 +1,51 @@
+﻿[Arrow]
+Path=Cinnamoroll Normal Select 1.ani
+
+[Help]
+Path=Cinnamoroll Help Select Pink.ani
+
+[No]
+Path=Cinnamoroll Unavailable Pink.ani
+
+[Wait]
+Path=Cinnamoroll Busy.ani
+
+[SizeNWSE]
+Path=Cinnamoroll Diagonal Resize 1.ani
+
+[SizeNESW]
+Path=Cinnamoroll Diagonal Resize 2.ani
+
+[SizeNS]
+Path=Cinnamoroll Vertical Resize.ani
+
+[SizeWE]
+Path=Cinnamoroll Horizontal Resize.ani
+
+[IBeam]
+Path=Cinnamoroll Text Select.ani
+
+[Hand]
+Path=Cinnamoroll Link Select.ani
+
+[UpArrow]
+Path=Cinnamoroll Alternate Select 1.ani
+
+[Pin]
+Path=Cinnamoroll Location Select Pink.ani
+
+[Person]
+Path=Cinnamoroll Person Select Pink.ani
+
+[SizeAll]
+Path=Cinnamoroll Move.ani
+
+[Crosshair]
+Path=Cinnamoroll Precision Select.ani
+
+[NWPen]
+Path=Cinnamoroll Handwriting Pink.ani
+
+[AppStarting]
+Path=Cinnamoroll Working In Background Pink.ani
+

@@ -2,68 +2,263 @@
 <html lang="en">
     <img class="blackbackground" src="/images/black.jpg">
     <div id="background-container">
-        <video autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+        <video class="background" autoplay muted loop src="/videos/windowsxporiginal.mp4"></video>
     </div>
 <head>
     <meta charset="UTF-8">
-    <title>code credit</title>
+    <title>influence | kvvz.xyz</title>
     <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js"></script>
     <script src="/color-thief.umd.js"></script>
 </head>
 <body onload="onPageLoaded()">
+    <b>
     <div class="container">
-        <div><b>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                <img src="/images/pidgeon.gif" width="275" height="125">
-            </a>
-            <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
-            <table>
-                <thead>
-                    <tr>
-                        <th><a class="coral" href="/">home</a></th>
-                        <th><a class="coral" href="/socials">socials</a></th>
-                        <th><a class="text" >*</a><a class="coral" href="/code-credit">code credit</a></th>
-                        <th><a class="coral" href="/spying">spying</a></th>
-                        <th><a class="coral" href="/pictures">pictures</a></th>
-                    </tr>
-                </thead>
-            </table>
-            <br><br>
-        </div>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const textElement = document.getElementById("welcomeText");
-                const text = textElement.innerHTML;
-                textElement.innerHTML = "";
-                textElement.classList.remove("hidden");
-                
-                let index = 0;
-    
-                function typeWriter() {
-                    if (index < text.length) {
-                        textElement.innerHTML += text.charAt(index);
-                        index++;
-                        setTimeout(typeWriter, 100);
-                    }
-                }
-    
-                typeWriter();
-            });
-        </script>
+        <!--main page popup-->
 
-        <div class="lime"><b>
-            <h2 class="purple">code credit:</h2>
-            <p>
-                <a>look of the site inspo from: <th><a class="lime-color" href="https://insect.christmas">insect.christmas</a></th></a>
-                <br>
-                <a>the glow coming from the pictures made using <th><a class="lime-color" href="https://lokeshdhakar.com/projects/color-thief/">color-thief</a></th> by <th><a class="lime-color" href="https://lokeshdhakar.com">Lokesh Dhakar</a></th></a>
-            </p>
-        </div></b>
+        <div id="kvvzxyzpopup" class="popup unclosable draggable non-scalable" data-bottom="-33.2%" data-left="50%" data-width="63.75%" data-height="85%">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Fax Sender Information.png">
+                influence
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div class="popupContent influence scrollble">
+                <div class="popup-background-container influence scrollble">
+                    <img class="popup-background-img influence scrollble" src="/images/background_interests.png">
+                </div> 
+
+                <div class="beforeSection">
+                    <div class="text">
+                        <h2> 
+                            this page is just a list of people that i find cool/admire mostly for their creations (temp background)
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="beforeSection">
+                    <div class="text">
+                        <h3>
+                            favorite websites on the internet that i took an instiration from
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="section" style="height: 130vh;">
+                    <div class="segment" style="grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;"> 
+                        <div class="picture">
+                            <img src="/images/insectpic.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            insect.christmas was the main instiration for making this website mostly in early days like a year ago even now big parts of the css are "borrowed" from astrids site and i have to say it. it is the worst css ever written (mine isn't better).
+                        </div>
+                        <div class="picture">
+                            <img src="/images/web_maph_chibi.gif" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            maphren.neocities.org is one of the coolest websites i have ever seen on the internet it has that cool 2000-10s vibe and the art is magnificent that shit is soo fucking good looking i can just admire creators work. its just really pretty
+                        </div>
+                    </div>
+                </div>
+
+                <!--this formatting is fucking tragic wtf is that-->
+
+                <div class="beforeSection">
+                    <div class="text">
+                        <h3>
+                            favorite people that work i find cool and shit
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="section" style="height: 130vh;">
+                    <div class="segment" style="grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;"> 
+                        <div class="picture">
+                            <img src="/images/f4mi.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            f4mi is a cool person who i mostly know for her youtube carrier i really enjoy her content cause its based around tech from 2000-10s so some really cool shit im a big fan. beacuse of her vids i like the ds, her website: famitown.neocities.org
+                        </div>
+                        <div class="picture">
+                            <img src="/images/kanye.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            KanYe West (Ye) i know its a weird take rn after he fucking destroyed his own reputation to the ground but most of his work is still fucking good and nothing is gonan change that for me i am not with him on any racist shit but his music fire
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="section" style="height: 130vh;">
+                    <div class="segment" style="grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;"> 
+                        <div class="picture">
+                            <img src="/images/sleepdeprived.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            the entire sleep deprived crew i really like watching their content its one of my favorite's on the internet pretty funny also most of them do somethings beside the sd channel (except apandah rn) really enjoy it, i would recommend watching
+                        </div>
+                        <div class="picture">
+                            <img src="/images/peaterGriffin.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            Peter Griffin idk i dont really watch family guy but he seems like a pretty cool guy definitely cooler than stewie. i think that stewie is adopted hes to fucking weird why does hes head looks like egg sideways fuck stewie but peter i really fucking cool
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="section" style="height: 130vh;">
+                    <div class="segment" style="grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;"> 
+                        <div class="picture">
+                            <img src="/images/obamna.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            Barack Obama the 44th persident of the United States Of America the first black president and he looks like a chill dude, it isn't cool that he bombed a children hospital in Afganistan but thats okay beacuse he's the nobel peace prize winner
+                        </div>
+                        <div class="picture">
+                            <img src="/images/osamabinladen.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            Osama Bin Laden is a freedom fighter / face of global terrorism he did some things bad like 9/11 but in between bombings and mass terrorism he pirated movies, run ds emulators to play Naruto Saikyou Ninja Daikesshuu 3 (Japanese) 
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="section" style="height: 130vh;">
+                    <div class="segment" style="grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;"> 
+                        <div class="picture">
+                            <img src="/images/piplup.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            Piplup he was my starter in platinum hes water type i really like him hes blue and looks like a duck he has cool evolutions probably commited some war crimes in 1940s but thats ok cause hes cute enought to not take responsibility
+                        </div>
+                        <div class="picture">
+                            <img src="/images/unabomber.png" height="200px" width="100%">
+                        </div>
+                        <div class="text">
+                            Ted Kaczynski (The Unabomber) he was a domestic terrorist, he killed 3 in his mail bombing attacks he targeted people that he thought were advancing technology and destroying the nature i kinda fuck with beacuse he has polish roots
+                        </div>
+                    </div> 
+                </div>
+
+        
+            </div>
+         </div>
+
     </div>
 
+                <!-- Taskbar -->
+            <div id="taskbar" class="taskbar">
+                <img class="taskbarlogo" src="/images/taskbarlogo.png">
+            </div>
+
+            <!--music popup-->
+
+            <div id="music" class="popup scalable unclosable" data-bottom="48.5%" data-left="85%" data-width="110px" data-height="190px"">
+                <div class="popupHeader">
+                    <img class="popupIcon" src="/images/Volume.png">
+                    music
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+                </div>
+                <div class="volume-control">
+                    <label for="volumeSlider">Volume:</label>
+                    <input type="range" id="volumeSlider" min="0" max="1" step="0.025" onchange="setVolume(this.value)">
+                </div>
+            </div>
+
+            <!--explorer popup-->
+
+            <div id="explorer" class="popup scalable unclosable" data-bottom="60.5%" data-left="5.5%" data-width="175px" data-height="210px">
+                <div class="popupHeader">
+                    <img class="popupIcon" src="/images/Explorer.png">
+                    <div style="text-align: left;">
+                        explorer
+                    </div>
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+                </div>
+                <div style="padding: 5px;">
+                    <img class="smallIcons" src="/images/My Computer.png"><a class="coral" href="/"> home</a><br>
+                    <img class="smallIcons" src="/images/Internet Hearts.png"><a class="coral" href="/interests"> interests</a><br>
+                    <img class="smallIcons" src="/images/Windows Picture and Fax Viewer.png"><a class="coral" href="/pictures"> pictures</a><br>
+                    <img class="smallIcons" src="/images/Fax Sender Information.png"><a class="coral" href="/code-credit"> influence</a><a class="star" >*</a><br>
+                    <img class="smallIcons" src="/images/XPS Viewer.png"><a class="coral" href="/donations"> donations</a><br>
+                </div>
+            </div>
+
+            <!--socials popup-->
+            <div id="socials" class="popup non-scalable unclosable" data-bottom="70%" data-left="90%" data-width="125px" data-height="200px">
+                <div class="popupHeader">
+                    <img class="popupIcon" src="/images/Connection Status.png">
+                    <div style="text-align: left;">
+                        socials
+                    </div>
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+                </div>
+                <div style="padding: 5px;">
+                    
+                    <img class="smallIcons" src="/images/instagram.png">
+                        <a class="instagram" style="text-decoration:wavy underline; color: rgb(223, 155, 54)" href="https://www.instagram.com/wielkikutasbobra">instagram</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/youtube.png">
+                        <a class="youtube" style="text-decoration:wavy underline; color: red;" href="https://www.youtube.com/@kvvzzz">youtube</a>
+                    <br>
+                    
+                    <img class="smallIcons" src="/images/twitch.png">
+                        <a class="twitch" style="text-decoration:wavy underline; color: rebeccaPurple;" href="https://www.twitch.tv/siurdupacyce">twitch</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/bluesky.png">
+                        <a class="bluesky" style="text-decoration:wavy underline; color: rgb(41, 115, 212);" href="https://bsky.app/profile/kvvz.xyz">bluesky</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/twitter.png">
+                        <a class="twitter" style="text-decoration:wavy underline; color: rgb(11, 7, 212);" href="https://x.com/kvvzie">twitter</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/github.png">
+                        <a class="github" style="text-decoration:wavy underline; color: rgb(32, 32, 32);" href="https://github.com/kvvzie">github</a>
+                    <br>
+                    
+                </div>
+            </div>
+
+            <!--chat poopup-->
+
+            <div id="chat" class="popup non-scalable" data-bottom="10%" data-left="86.5%" data-width="200px" data-height="325px">
+                <div class="popupHeader">
+                    <img class="popupIcon" src="/images/Rename.png">
+                    <div style="text-align: left;">
+                        chat
+                    </div>
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+                </div>
+                <div style="padding: 5px;">
+                    <div id="chatMessages" style="height:225px; overflow-y: auto; background: #111111e5; color: #ffffff; padding: 5px; font-size: 12px;"></div>
+                    <form id="chatForm">
+                        <input type="text" id="chatNick" placeholder="your name" style="width: 96%; font-size: 12px;" autocomplete="off">
+                        <input type="text" id="chatInput" placeholder="your message" style="width: 96%; font-size: 12px;" autocomplete="off">
+                        <button type="submit" style="display: none;"></button>
+                    </form>
+                </div>
+            </div>
+
+            <!--spyify popup-->
+
+            <div id="spyify" class="popup scalable" data-bottom="20%" data-left="1.5%" data-width="290px" data-height="190px">
+                <div class="popupHeader">
+                    <img class="popupIcon" src="/images/IE Media.png">
+                    spyify
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+                </div>
+                <div class="popupContent">
+                    what is kvvz listening to?
+                    <iframe id="spotify-embed" style="border-radius:12px" src="" width="100%" height="70%" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="fast"></iframe>
+                    <div id="message"></div>
+                </div>
+            </div>
+
+    <!--disc in the corner-->
+ 
     <div class="image-container">
         <img class="disc" src="/images/disc.png" width="50" height="50">
         <span class="hover-text"></span>
@@ -75,13 +270,32 @@
     </audio>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audioElement = document.getElementById('background-music');
-            if (audioElement) {
-                audioElement.volume = 0.3;
-                audioElement.play();
-            }
+        document.addEventListener("DOMContentLoaded", function() {
+            const audioElement = document.getElementById("background-music");
+            const volumeSlider = document.getElementById("volumeSlider");
+
+            const savedVolume = localStorage.getItem("savedVolume");
+            const initialVolume = savedVolume !== null ? parseFloat(savedVolume) : 0.05;
+
+            audioElement.volume = initialVolume;
+            volumeSlider.value = initialVolume;
+
+            window.setVolume = function(value) {
+                audioElement.volume = value;
+                localStorage.setItem("savedVolume", value);
+            };
         });
     </script>
+    </b>
 </body>
+
+<!--action denied image-->
+
+<div id="actionDeniedMessage" class="action-denied hidden">
+    <img src="/images/accesisdenied.png">
+</div>    
+
+<!--invisible test button without it the popup system doesnt work-->
+<button style="opacity: 0;" id="createPopupButton">Create New Popup</button>
+
 </html>
