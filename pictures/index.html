@@ -2,116 +2,239 @@
 <html lang="en">
     <img class="blackbackground" src="/images/black.jpg">
     <div id="background-container">
-        <video autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+        <video class="background" autoplay muted loop src="/videos/windowsxporiginal.mp4"></video>
     </div>
 <head>
     <meta charset="UTF-8">
-    <title>pictures</title>
+    <title>pictures | kvvz.xyz</title>
     <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js"></script>
     <script src="/color-thief.umd.js"></script>
 </head>
 <body onload="onPageLoaded()">
+    <b>
     <div class="container">
-        <div><b>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                <img src="/images/pidgeon.gif" width="275" height="125">
-            </a>
-            <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
-            <table>
-                <thead>
-                    <tr>
-                        <th><a class="coral" href="/">home</a></th>
-                        <th><a class="coral" href="/socials">socials</a></th>
-                        <th><a class="coral" href="/code-credit">code credit</a></th>
-                        <th><a class="coral" href="/spying">spying</a></th>
-                        <th><a class="text" >*</a><a class="coral" href="/pictures">pictures</a></th>
-                    </tr>
-                </thead>
-            </table>
-            <br><br>
-        </div>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const textElement = document.getElementById("welcomeText");
-                const text = textElement.innerHTML;
-                textElement.innerHTML = "";
-                textElement.classList.remove("hidden");
-                
-                let index = 0;
-    
-                function typeWriter() {
-                    if (index < text.length) {
-                        textElement.innerHTML += text.charAt(index);
-                        index++;
-                        setTimeout(typeWriter, 100);
-                    }
-                }
-    
-                typeWriter();
-            });
-        </script>
-        <div class="lime">
-            gang (。・ω・。)
-        </div>
-        <div class="lime">
-            <div class="image-container-link">
-                <img class="image-with-glow" src="/images/gang1.jpg" width="250" height="250">
-                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/macius8_/">@macius8_</a></span>
-            </div>
-            <div class="image-container-link">
-                <img class="image-with-glow" src="/images/gang2.jpg" width="250" height="250">
-                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/j3xy_.3kkk/">@j3xy_.3kkk</a></span>
-            </div>
-            <div class="image-container-link">
-                <img class="image-with-glow" src="/images/gang3.jpg" width="250" height="250">
-                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/majkaa.777/">@majkaa.777</a></span>
-            </div>
-            <div class="image-container-link">
-                <img class="image-with-glow" src="/images/gang4.jpg" width="250" height="250">
-                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/wielkikutasbobra/">@wielkikutasbobra</a></span>
-            </div>
-            <div class="image-container-link">
-                <img class="image-with-glow" src="/images/gang5.jpg" width="250" height="250">
-                <span class="hover-text-link"><a class="white" href="https://www.instagram.com/fi3i1_/">@fi3i1_</a></span>
-            </div>
-        </div>
-        <br>
-        <div class="lime">
-            me ◑﹏◐
-        </div>
-        <div class="lime">
-            <img class="image-with-glow" src="/images/me.jpg" width="250" height="250">
-            <img class="image-with-glow" src="/images/me2.jpg" width="250" height="250">
-            <img class="image-with-glow" src="/images/me3.jpg" width="250" height="250">
-            <img class="image-with-glow" src="/images/me4.jpg" width="250" height="250">
-            <img class="image-with-glow" src="/images/me5.jpg" width="250" height="250">
-        </div>
-        <br>
-        <div class="lime">
-            kitties :3
-        </div>
+        <!--main page popup-->
 
-        <div class="lime">
-            <img class="image-with-glow" src="/images/kitty.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty1.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty2.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty3.jpg" width="200" height="200"> 
-            <img class="image-with-glow" src="/images/kitty4.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty5.jpg" width="200" height="200">
-        </div>
-        <div class="lime">
-            <img class="image-with-glow" src="/images/kitty6.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty7.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty8.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty9.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty10.jpg" width="200" height="200">
-            <img class="image-with-glow" src="/images/kitty11.jpg" width="200" height="200">
-        </div>
+        <div id="kvvzxyzpopup" class="popup unclosable draggable non-scalable scrollable" data-top="48%" data-left="50%" data-width="56.5%" data-height="90%">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Windows Picture and Fax Viewer.png">
+                pictures
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+
+            <div class="popupContent">
+                <div class="popup-background-container">
+                    <img class="popup-background-img" src="/images/background_interests.png">
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <img class="sitelogo" src="/images/pidgeon.gif" width="275" height="125">
+                    </a>
+                    <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
+                    <br>
+                </div>
+        
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const textElement = document.getElementById("welcomeText");
+                        const text = textElement.innerHTML;
+                        textElement.innerHTML = "";
+                        textElement.classList.remove("hidden");
+                        
+                        let index = 0;
+            
+                        function typeWriter() {
+                            if (index < text.length) {
+                                textElement.innerHTML += text.charAt(index);
+                                index++;
+                                setTimeout(typeWriter, 100);
+                            }
+                        }
+            
+                        typeWriter();
+                    });
+                </script>
+                <div class="lime">
+                    all the pictures on this site are like 1 year old
+                </div>
+                <div class="lime">
+                    gang (。・ω・。)
+                </div>
+                <div class="main">
+                    <div class="image-container-link">
+                        <img class="image-with-glow" src="/images/gang1.jpg" width="250" height="250">
+                        <span class="hover-text-link"><a class="white" href="https://www.instagram.com/macius8_/">@macius8_</a></span>
+                    </div>
+                    <div class="image-container-link">
+                        <img class="image-with-glow" src="/images/gang2.jpg" width="250" height="250">
+                        <span class="hover-text-link"><a class="white" href="https://www.instagram.com/j3xy_.3kkk/">@j3xy_.3kkk</a></span>
+                    </div>
+                    <div class="image-container-link">
+                        <img class="image-with-glow" src="/images/gang3.jpg" width="250" height="250">
+                        <span class="hover-text-link"><a class="white" href="https://www.instagram.com/majkaa.777/">@majkaa.777</a></span>
+                    </div>
+                    <div class="image-container-link">
+                        <img class="image-with-glow" src="/images/gang4.jpg" width="250" height="250">
+                        <span class="hover-text-link"><a class="white" href="https://www.instagram.com/wielkikutasbobra/">@wielkikutasbobra</a></span>
+                    </div>
+                    <div class="image-container-link">
+                        <img class="image-with-glow" src="/images/gang5.jpg" width="250" height="250">
+                        <span class="hover-text-link"><a class="white" href="https://www.instagram.com/fi3i1_/">@fi3i1_</a></span>
+                    </div>
+                </div>
+                <br>
+                <div class="lime">
+                    me ◑﹏◐
+                </div>
+                <div class="lime">
+                    <img class="image-with-glow" src="/images/me.jpg" width="250" height="250">
+                    <img class="image-with-glow" src="/images/me2.jpg" width="250" height="250">
+                    <img class="image-with-glow" src="/images/me3.jpg" width="250" height="250">
+                    <img class="image-with-glow" src="/images/me4.jpg" width="250" height="250">
+                    <img class="image-with-glow" src="/images/me5.jpg" width="250" height="250">
+                </div>
+                <br>
+                <div class="lime">
+                    
+                    kitties :3
+                </div>
+        
+                <div class="lime">
+                    <img class="image-with-glow" src="/images/kitty.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty1.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty2.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty3.jpg" width="200" height="200"> 
+                    <img class="image-with-glow" src="/images/kitty4.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty5.jpg" width="200" height="200">
+                </div>
+                <div class="lime">
+                    <img class="image-with-glow" src="/images/kitty6.jpg" width="200" height="200">
+                    <img class="image-with-glow" id="cds" src="/images/kitty7.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty8.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty9.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty10.jpg" width="200" height="200">
+                    <img class="image-with-glow" src="/images/kitty11.jpg" width="200" height="200">
+                </div>
+            </div>
+         </div>
+
     </div>
+
+        <!-- Taskbar -->
+        <div id="taskbar" class="taskbar">
+            <img class="taskbarlogo" src="/images/taskbarlogo.png">
+        </div>
+
+        <!--music popup-->
     
+        <div id="music" class="popup scalable unclosable" data-top="40%" data-left="85%" data-width="125px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Volume.png">
+                music
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div class="volume-control">
+                <label for="volumeSlider">Volume:</label>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.025" onchange="setVolume(this.value)">
+            </div>
+        </div>
+
+        <!--explorer popup-->
+    
+        <div id="explorer" class="popup scalable unclosable" data-top="20%" data-left="7.5%" data-width="175px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Explorer.png">
+                <div style="text-align: left;">
+                    explorer
+                </div>
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div style="padding: 5px;">
+                <img class="smallIcons" src="/images/My Computer.png"><a class="coral" href="/"> home</a><br>
+                <img class="smallIcons" src="/images/Internet Hearts.png"><a class="coral" href="/interests"> interests</a><br>
+                <img class="smallIcons" src="/images/Windows Picture and Fax Viewer.png"><a class="coral" href="/pictures"> pictures</a><a class="star" >*</a><br>
+                <img class="smallIcons" src="/images/Fax Sender Information.png"><a class="coral" href="/code-credit"> influence</a><br>
+                <img class="smallIcons" src="/images/XPS Viewer.png"><a class="coral" href="/donations"> donations</a><br>
+            </div>
+        </div>
+
+        <!--socials popup-->
+        <div id="socials" class="popup non-scalable unclosable" data-top="20%" data-left="7.5%" data-width="175px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Connection Status.png">
+                <div style="text-align: left;">
+                    socials
+                </div>
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div style="padding: 5px;">
+                
+                <img class="smallIcons" src="/images/instagram.png">
+                    <a class="instagram" style="text-decoration:wavy underline; color: rgb(223, 155, 54)" href="https://www.instagram.com/wielkikutasbobra">instagram</a>
+                <br>
+
+                <img class="smallIcons" src="/images/youtube.png">
+                    <a class="youtube" style="text-decoration:wavy underline; color: red;" href="https://www.youtube.com/@kvvzzz">youtube</a>
+                <br>
+                
+                <img class="smallIcons" src="/images/twitch.png">
+                    <a class="twitch" style="text-decoration:wavy underline; color: rebeccaPurple;" href="https://www.twitch.tv/siurdupacyce">twitch</a>
+                <br>
+
+                <img class="smallIcons" src="/images/bluesky.png">
+                    <a class="bluesky" style="text-decoration:wavy underline; color: rgb(41, 115, 212);" href="https://bsky.app/profile/kvvz.xyz">bluesky</a>
+                <br>
+
+                <img class="smallIcons" src="/images/twitter.png">
+                    <a class="twitter" style="text-decoration:wavy underline; color: rgb(11, 7, 212);" href="https://x.com/kvvzie">twitter</a>
+                <br>
+
+                <img class="smallIcons" src="/images/github.png">
+                    <a class="github" style="text-decoration:wavy underline; color: rgb(32, 32, 32);" href="https://github.com/kvvzie">github</a>
+                <br>
+                
+            </div>
+        </div>
+
+        <!--chat poopup-->
+
+        <div id="chat" class="popup non-scalable" data-bottom="10%" data-left="86.5%" data-width="200px" data-height="325px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Rename.png">
+                <div style="text-align: left;">
+                    chat
+                </div>
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div style="padding: 5px;">
+                <div id="chatMessages" style="height:225px; overflow-y: auto; background: #111111e5; color: #ffffff; padding: 5px; font-size: 12px;"></div>
+                <form id="chatForm">
+                    <input type="text" id="chatNick" placeholder="your name" style="width: 96%; font-size: 12px;" autocomplete="off">
+                    <input type="text" id="chatInput" placeholder="your message" style="width: 96%; font-size: 12px;" autocomplete="off">
+                    <button type="submit" style="display: none;"></button>
+                </form>
+            </div>
+        </div>
+    
+        <!--spyify popup-->
+
+        <div id="spyify" class="popup scalable" data-top="40%" data-left="85%" data-width="125px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/IE Media.png">
+                spyify
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div class="popupContent">
+                what is kvvz listening to?
+                <iframe id="spotify-embed" style="border-radius:12px" src="" width="100%" height="70%" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="fast"></iframe>
+                <div id="message"></div>
+            </div>
+        </div>
+    <!--disc in the corner-->
+
     <div class="image-container">
         <img class="disc" src="/images/disc.png" width="50" height="50">
         <span class="hover-text"></span>
@@ -124,13 +247,32 @@
     </audio>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audioElement = document.getElementById('background-music');
-            if (audioElement) {
-                audioElement.volume = 0.3;
-                audioElement.play();
-            }
+        document.addEventListener("DOMContentLoaded", function() {
+            const audioElement = document.getElementById("background-music");
+            const volumeSlider = document.getElementById("volumeSlider");
+
+            const savedVolume = localStorage.getItem("savedVolume");
+            const initialVolume = savedVolume !== null ? parseFloat(savedVolume) : 0.05;
+
+            audioElement.volume = initialVolume;
+            volumeSlider.value = initialVolume;
+
+            window.setVolume = function(value) {
+                audioElement.volume = value;
+                localStorage.setItem("savedVolume", value);
+            };
         });
     </script>
+    </b>
 </body>
+
+<!--action denied image-->
+
+<div id="actionDeniedMessage" class="action-denied hidden">
+    <img src="/images/accesisdenied.png">
+</div>    
+
+<!--invisible test button without it the popup system doesnt work-->
+<button style="opacity: 0;" id="createPopupButton">Create New Popup</button>
+ 
 </html>

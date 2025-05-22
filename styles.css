@@ -1,7 +1,7 @@
 .monospace {
-    font-family: monospace;  
+    font-family: monospace;
 }
-video {
+.background {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,17 +37,34 @@ h2 {
     padding: 20px;
     border-radius: 10px;
 }
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('/fonts/comic-sans-ms.woff2') format('woff2'),
+         url('/fonts/comic-sans-ms.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    font-family: monospace;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
     position: relative;
+    cursor: url('/cursors/Metal_set/Metal_Norm.cur'), auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scrollbar-width: none;
 }
-table {
+button:hover {
+    cursor: url('/cursors/Metal_set/Metal_Link.cur'), auto;
+}
+a:hover {
+    cursor: url('/cursors/Metal_set/Metal_Link.cur'), auto;
+}
+.navigation {
     border-collapse: collapse;
     border: 2px solid rgba(0, 0, 0, 0);
     font-family: sans-serif;
@@ -64,17 +81,6 @@ th,
 td {
     border: 1px;
     padding: 8px 10px;
-}
-.hidden {
-    visibility: hidden;
-}
-.bottom {
-    display: block;
-    text-align: left;
-    font-size: 10px;
-    position: fixed;
-    bottom: 10px;
-    width: 100%;
 }
 .sidebarRight {
     position: fixed;
@@ -95,22 +101,30 @@ td {
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    font-family: 'Comic Sans MS', sans-serif;
 }
 .purple {
     color: purple;
+    text-shadow: 1px 1px 3px rgba(234, 0, 255, 0.6);
+}
+.purple:hover {
+    text-shadow: 1px 1px 4px rgba(234, 0, 255, 0.7);
 }
 .indigo {
     color: indigo;
 }
 .coral {
     color: coral;
+    text-shadow: 1px 1px 3px rgba(255, 102, 0, 0.6);
+    text-decoration: none;
+    font-family: 'Comic Sans MS', sans-serif;
 }
+.coral:hover {
+    text-shadow: 1px 1px 8px rgba(255, 102, 0, 1);
+}
+
 .darkred {
     color: darkred;
-}
-.text {
-    color: chartreuse;
-    font-family: monospace;
 }
 .red {
     color: red;
@@ -119,7 +133,7 @@ td {
     color: white;
 }
 .emojis {
-    color: hotpink;
+    color: rgb(33, 2, 41);
     display: inline-block;
     margin-top: 10px;
 }
@@ -136,7 +150,7 @@ td {
     display: block;
     margin: 0 auto;
 }
-.lime img {
+.main img {
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
@@ -172,13 +186,13 @@ td {
     bottom: 60px;
     left: 50%;
     transform: translateX(-50%); 
-    background-color: black; 
+    background-color: rgba(0, 0, 0, 0.6 ); 
     color: white; 
     padding: 5px; 
     border-radius: 5px; 
     font-size: 12px;
     white-space: nowrap; 
-    z-index: 101; 
+    z-index: 1010; 
 }
 
 .image-container:hover .hover-text {
@@ -210,4 +224,523 @@ td {
     font-size: 12px;
     white-space: nowrap; 
     z-index: 101; 
+}
+.secretplayer {
+    position: fixed;
+    bottom: 100px;
+    z-index: 101; 
+}
+.container {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+.blinking {
+    animation: blink-animation 1.5s steps(2, start) infinite;
+    color: lime;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+.star {
+    color: lime;
+    text-shadow: 1px 1px 3px rgba(1, 179, 1, 0.6);
+    text-decoration: none;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.star:hover {
+    text-shadow: 1px 1px 8px rgba(0, 179, 0, 1);
+}
+.neon {
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+}
+.volume-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    bottom: 25px;
+    left: 50 px; 
+    z-index: 20; 
+}
+.volume-control label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#volumeSlider {
+    writing-mode: vertical-rl;
+    width: 6px; 
+    height: 100px;
+    margin: 5px;
+    transform: rotate(180deg);
+    border-radius: 2px;
+    background: #525151;
+}
+#volumeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: url('/images/speaker.png') no-repeat center center;
+    background-size: contain;
+    cursor: url('/cursors/Metal_set/Metal_Move.cur'), auto;
+}
+audio:hover {
+    cursor: url('/cursors/Metal_set/Metal_Move.cur'), auto;
+}
+#volumeSlider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: url('/images/speaker.png') no-repeat center center;
+    background-size: contain;
+    cursor: url('/cursors/Metal_set/Metal_Move.cur'), auto;
+    border-radius: 50%;
+    border-color: rgba(114, 15, 40, 0.4);
+}
+.instagram {
+    text-shadow: 1px 1px 3px rgba(223, 155, 54, 0.6);
+}
+.instagram:hover {
+    text-shadow: 1px 1px 8px rgba(223, 155, 54, 1);
+}
+.youtube {
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.6);
+}
+.youtube:hover {
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 1);
+}
+.twitch {
+    text-shadow: 1px 1px 3px rgba(102, 51, 153, 0.60);
+}
+.twitch:hover {
+    text-shadow: 1px 1px 3px rgba(102, 51, 153, 1);
+}
+.bluesky {
+    text-shadow: 1px 1px 3px rgba(41, 115, 212, 0.6);
+}
+.bluesky:hover {
+    text-shadow: 1px 1px 8px rgba(41, 115, 212, 1);
+}
+.twitter {
+    text-shadow: 1px 1px 3px rgba(11, 7, 212, 0.6);
+}
+.twitter:hover {
+    text-shadow: 1px 1px 3px rgba(11, 7, 212, 1);
+}
+.github {
+    text-shadow: 1px 1px 3px rgba(32, 32, 32, 0.60);
+}
+.github:hover {
+    text-shadow: 1px 1px 3px rgba(32, 32, 32, 1);
+}
+#cds:hover {
+    cursor: url('/cursors/Metal_set/Metal_Link.cur'), auto;
+}
+.marquee-container {
+    width: 98%;
+    overflow: hidden;
+    background-color: #000;
+    border: 2px solid #00ff00;
+    color: #0f0;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+@keyframes rainbow {
+    0% { background-color: #ff000060; }
+    8% { background-color: #ff990060; }
+    16% { background-color: #ffff0060; }
+    32% { background-color: #33cc3360; }
+    40% { background-color: #3399ff60; }
+    48% { background-color: #9900ff60; }
+    56% { background-color: #ff000060; }
+    64% { background-color: #ff990060; }
+    72% { background-color: #ffff0060; }
+    80% { background-color: #33cc3360; }
+    88% { background-color: #3399ff60; }
+    96% { background-color: #9900ff60; }
+    100% { background-color: #ff000060; }
+}
+
+.cursor-trail {
+    position: fixed;
+    width: 8px;      
+    height: 10px;
+    border-radius: 80%;
+    pointer-events: none;
+    animation: rainbow 1s linear infinite, fade 2s forwards;
+    opacity: 0.9;
+    z-index: 1000;
+}
+@keyframes fade {
+    0% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 0; transform: scale(0.4); }
+}
+.floaty {
+    position: absolute;
+    animation: float 10s infinite alternate;
+}
+
+@keyframes float {
+    from { top: 0; left: 0; }
+    to { top: 80vh; left: 80vw; }
+}
+.popup {
+    position: absolute;
+    border: 1px solid #000;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    max-height: 90vh;
+    resize: both;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.scrollable {
+    overflow-y: auto;
+}
+
+.non-scalable {
+    resize: none;
+}
+
+.popupHeader {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.popupContent {
+    position: relative;
+    max-height: 100vh;
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+
+/* home */
+
+.popup.home.drain {
+    background-color: #ffffffb9;
+}
+
+.popupHeader.home.drain {
+    background-color: #595372;
+}
+
+.taskbar.home.drain {
+    background-image: url('/images/taskbardrainv2.png');
+}
+.taskbarlogo.drain {
+    -webkit-filter: drop-shadow(5px 5px 5px #001605);
+    filter: drop-shadow(5px 5px 5px #001605);
+    height: 40px;
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('/images/taskbar.png');
+    display: flex;
+    align-items: center;
+}
+
+.taskbarItem {
+    background-color: transparent;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.action-denied {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 2000;
+    -webkit-filter: drop-shadow(5px 5px 5px #0056ea5e);
+    filter: drop-shadow(5px 5px 5px #0055ea5e);
+}
+
+.hidden {
+    display: none;
+}
+.smallIcons {
+    height: 18px;
+}
+.sitelogo {
+    -webkit-filter: drop-shadow(5px 5px 5px #333);
+    filter: drop-shadow(5px 5px 5px #333);
+}
+#explorer {
+    height: 210px;
+    width: 175px;
+    left: 5.5%;
+    bottom: 60.5%;
+    text-align:left;
+}
+#music {
+    height: 190px;
+    width: 110px;
+    left: 85%;
+    bottom: 48.5%;
+}
+#kvvzxyzpopup {
+    height: 85%;
+    width: 63.75%;
+    left: 50%;
+    right: 50%;
+    bottom: -33.2%;
+    transform: translate(-50%, -50%);
+}
+#spyify {
+    height: 190px;
+    width: 290px;
+    left: 1.5%;
+    bottom: 20%;
+}
+#socials {
+    height: 200px;
+    width: 125px;
+    left: 90%;
+    bottom: 70%;
+    text-align: left;
+}
+#chat {
+    height: 325px;
+    width: 200px;
+    left: 86.5%;
+    bottom: 10%;
+    text-align: left;
+}
+.taskbarlogo {
+    -webkit-filter: drop-shadow(5px 5px 5px #183d00);
+    filter: drop-shadow(5px 5px 5px #183d00);
+    height: 40px;
+}
+.context-menu {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    padding: 5px;
+    display: none;
+}
+
+.context-menu div {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.context-menu div:hover {
+    background-color: #555;
+}
+.closeButton {
+    height: 20px;
+}
+.popupIcon {
+    height: 25px;
+}
+.popup-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.popup-background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.popup-background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* debuggin wielkosci popapow 
+.popupContent, html, body {
+    height: 100%;
+    border: 3px solid red;
+}
+*/
+
+/* interests */
+.popup-background-container.interests.scrollble {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.popup-background-img.interests.scrollble {
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* fucks up moving the popups 
+.popup.interests.s2010, .popupHeader.interests.s2010, .taskbar.interests.s2010, .taskbarlogo.interests.s2010 {
+    transition: all 0.4s ease;
+}
+*/
+
+/*red */
+
+body.theme-red .popup.interests.s2010 { 
+    background-color: rgba(255, 0, 0, 0.5); 
+}
+body.theme-red .popupHeader.interests.s2010 { 
+    background-color: #aa0000; 
+}
+body.theme-red .taskbar.interests.s2010 { 
+    background-image: url('/images/taskbar2010sred.png'); 
+}
+body.theme-red .taskbarlogo.interests.s2010 { 
+    filter: drop-shadow(5px 5px 5px #810000); 
+    height: 40px; 
+    -webkit-filter: drop-shadow(5px 5px 5px #810000);
+}
+  
+/*pink*/
+
+body.theme-pink .popup.interests.s2010 { 
+    background-color: rgba(255, 105, 180, 0.5); }
+
+body.theme-pink .popupHeader.interests.s2010 { 
+    background-color: #e75480; 
+}
+body.theme-pink .taskbar.interests.s2010 { 
+    background-image: url('/images/taskbar2010spink.png'); 
+}
+body.theme-pink .taskbarlogo.interests.s2010 { 
+    filter: drop-shadow(5px 5px 5px #9b1940); 
+    height: 40px; 
+    -webkit-filter: drop-shadow(5px 5px 5px #9b1940);
+}
+  
+/*green*/
+
+body.theme-green .popup.interests.s2010 { 
+    background-color: rgba(0, 255, 0, 0.5); 
+}
+body.theme-green .popupHeader.interests.s2010 { 
+    background-color: #009900; 
+}
+body.theme-green .taskbar.interests.s2010 { 
+    background-image: url('/images/taskbar2010sgreen.png'); 
+}
+body.theme-green .taskbarlogo.interests.s2010 { 
+    filter: drop-shadow(5px 5px 5px #005500); 
+    height: 40px; 
+    -webkit-filter: drop-shadow(5px 5px 5px #005500);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+
+.segment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+}
+
+.segment.reverse {
+    direction: rtl;
+}
+
+.segment.reverse > * {
+    direction: ltr;
+}
+.text {
+    background: none;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: justify;
+}
+.img {
+    background: white;
+    height: 200px;
+}
+
+.beforeSection {
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+}
+
+/* infuence */
+.popup-background-container.influence.scrollble {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.popup-background-img.influence.scrollble {
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+body::-webkit-scrollbar {
+    display: none;
 }

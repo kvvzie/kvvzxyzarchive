@@ -2,11 +2,11 @@
 <html lang="en">
     <img class="blackbackground" src="/images/black.jpg">
     <div id="background-container">
-        <video autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+        <video class="background" autoplay muted loop src="/videos/backgroundmain.mp4"></video>
     </div>
 <head>
     <meta charset="UTF-8">
-    <title>spying</title>
+    <title>spying | kvvz.xyz</title>
     <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js"></script>
@@ -19,14 +19,15 @@
                 <img src="/images/pidgeon.gif" width="275" height="125">
             </a>
             <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
-            <table>
+            <table class="navigation">
                 <thead>
                     <tr>
                         <th><a class="coral" href="/">home</a></th>
-                        <th><a class="coral" href="/socials">socials</a></th>
+                        <th><a class="coral" href="/interests">interests</a></th>
                         <th><a class="coral" href="/code-credit">code credit</a></th>
-                        <th><a class="text" >*</a><a class="coral" href="/spying">spying</a></th>
+                        <th><a class="star" >*</a><a class="coral" href="/spying">spying</a></th>
                         <th><a class="coral" href="/pictures">pictures</a></th>
+                        <th><a class="coral" href="/donations">donations</a></th>
                     </tr>
                 </thead>
             </table>
@@ -70,5 +71,22 @@
         </div>
     </div>
 
+    <div class="socials">
+        <a class="instagram" style="text-decoration: wavy underline; color: beige" href="https://www.instagram.com/wielkikutasbobra">instagram</a>
+        &nbsp;
+        <a class="youtube" style="text-decoration: wavy underline; color: red;" href="https://www.youtube.com/@kvvzzz">youtube</a>
+        &nbsp;
+        <a class="twitch" style="text-decoration: wavy underline; color: rebeccaPurple;" href="https://www.twitch.tv/siurdupacyce">twitch</a>
+        &nbsp;
+    </div>
+
 </body>
+<!--action denied image-->
+
+<div id="actionDeniedMessage" class="action-denied hidden">
+    <img src="/images/accesisdenied.png">
+</div>    
+
+<!--invisible test button without it the popup system doesnt work-->
+<button style="opacity: 0;" id="createPopupButton">Create New Popup</button>
 </html>
