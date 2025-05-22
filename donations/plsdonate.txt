@@ -1,0 +1,4 @@
+message="im schizofrenic" donator="me" sum="-1"
+
+
+

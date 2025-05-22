@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img class="blackbackground" src="/images/black.jpg">
+    <div id="background-container">
+        <video class="background" autoplay muted loop src="/videos/windowsxporiginal.mp4"></video>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>donations | kvvz.xyz</title>
+    <link rel="icon" href="/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js"></script>
+    <script src="/color-thief.umd.js"></script>
+</head>
+<body onload="onPageLoaded()">
+    <b>
+    <div class="container">
+
+        <!--main page popup-->
+
+        <div id="kvvzxyzpopup" class="popup unclosable draggable non-scalable" data-top="48%" data-left="50%" data-width="56.5%" data-height="90%">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/XPS Viewer.png">
+                donations
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div class="popupContent">
+                <div class="popup-background-container">
+                    <video class="popup-background" autoplay muted loop src="/videos/backgroundmain.mp4"></video>
+                </div>
+                <div><b>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <img class="sitelogo" src="/images/pidgeon.gif" width="275" height="125">
+                    </a>
+                    <h1 id="welcomeText" class="lime hidden">welcome on kvvz.xyz</h1><br>
+                    <br>
+                </div>
+            
+            
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const textElement = document.getElementById("welcomeText");
+                        const text = textElement.innerHTML;
+                        textElement.innerHTML = "";
+                        textElement.classList.remove("hidden");
+                        
+                        let index = 0;
+            
+                        function typeWriter() {
+                            if (index < text.length) {
+                                textElement.innerHTML += text.charAt(index);
+                                index++;
+                                setTimeout(typeWriter, 100);
+                            }
+                        }
+            
+                        typeWriter();
+                    });
+                </script>
+        
+                <style>
+                    #leaderboard {
+                        margin-top: 20px;
+                        font-family: Arial, sans-serif;
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    #leaderboard th, #leaderboard td {
+                        border: 1px solid #666;
+                        padding: 6px;
+                        text-align: middle;
+                    }
+                    #leaderboard th {
+                        background-color: #222;
+                        color: #f2f2f2;
+                    }
+                    .rainbow-text {
+                        animation: rainbow-text 5s linear infinite;
+                        font-weight: bold;
+                    }
+                    @keyframes rainbow-text {
+                        0% { color: #ff0000; }
+                        16% { color: #ff9900; }
+                        33% { color: #ffff00; }
+                        50% { color: #33cc33; }
+                        66% { color: #3399ff; }
+                        83% { color: #9900ff; }
+                        100% { color: #ff0000; }
+                    }
+                    .secound-text-2 {
+                        animation: secound-text-2 5s linear infinite;
+                        font-weight: bold;
+                    }
+                    @keyframes secound-text-2 {
+                        0% { color: #bd0000; }
+                        16% { color: #bd7400; }
+                        33% { color: #bdbd00; }
+                        50% { color: #239123; }
+                        66% { color: #256cb3; }
+                        83% { color: #6a03af; }
+                        100% { color: #bd0000; }
+                    }
+                    .third-text-3 {
+                        animation: third-text-3 5s linear infinite;
+                        font-weight: bold;
+                    }
+                    @keyframes third-text-3 {
+                        0% { color: #970000; }
+                        16% { color: #977400; }
+                        33% { color: #979700; }
+                        50% { color: #186418; }
+                        66% { color: #1e568f; }
+                        83% { color: #4a027a; }
+                        100% { color: #970000; }
+                    }
+                    .fishy {
+                        color:rgb(29, 170, 128)
+                    }
+                </style>
+        
+            <div class="fishy">
+                <div style="font-size: 30px;" class="donations rainbow-text">Donations</div>
+                    <table id="leaderboard">
+                        <thead>
+                            <tr>
+                                <th>Donator</th>
+                                <th>Message</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody id="donations-container">
+                            <!-- Donations will be displayed here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <script>
+                fetch('/donations/plsdonate.txt')
+                    .then(response => response.text())
+                    .then(text => {
+                        const donationsContainer = document.getElementById('donations-container');
+                        
+                        const lines = text.trim().split('\n');
+                        const donations = lines.map(line => {
+                            const messageMatch = line.match(/message="([^"]*)"/);
+                            const donatorMatch = line.match(/donator="([^"]*)"/);
+                            const sumMatch = line.match(/sum="([^"]*)"/);
+        
+                            if (messageMatch && donatorMatch && sumMatch) {
+                                const message = messageMatch[1];
+                                const donator = donatorMatch[1];
+                                const sum = parseFloat(sumMatch[1]);
+                                return { message, donator, sum };
+                            }
+                        }).filter(donation => donation);
+        
+                        donations.sort((a, b) => b.sum - a.sum);
+        
+                        donations.forEach((donation, index) => {
+                            const donationElement = document.createElement('tr');
+                            const donatorClass = index === 0 ? 'rainbow-text' : index === 1 ? 'secound-text-2' : index === 2 ? 'third-text-3' : '';
+                            
+                            donationElement.innerHTML = `
+                                <td class="${donatorClass}">${donation.donator}</td>
+                                <td class="${donatorClass}">${donation.message}</td>
+                                <td class="${donatorClass}">${donation.sum} robux</td>
+                            `;
+                            donationsContainer.appendChild(donationElement);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching donations:', error));
+            </script>
+
+        
+            </div>
+         </div>
+
+    </div>
+
+        <!-- Taskbar -->
+
+        <div id="taskbar" class="taskbar">
+            <img class="taskbarlogo" src="/images/taskbarlogo.png">
+        </div>
+
+        <!--music popup-->
+
+        <div id="music" class="popup scalable unclosable" data-top="40%" data-left="85%" data-width="125px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Volume.png">
+                music
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div class="volume-control">
+                <label for="volumeSlider">Volume:</label>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.025" onchange="setVolume(this.value)">
+            </div>
+        </div>
+
+        <!--explorer popup-->
+
+        <div id="explorer" class="popup scalable unclosable" data-top="20%" data-left="7.5%" data-width="175px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Explorer.png">
+                <div style="text-align: left;">
+                    explorer
+                </div>
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div style="padding: 5px;">
+                <img class="smallIcons" src="/images/My Computer.png"><a class="coral" href="/"> home</a><br>
+                <img class="smallIcons" src="/images/Internet Hearts.png"><a class="coral" href="/interests"> interests</a><br>
+                <img class="smallIcons" src="/images/Windows Picture and Fax Viewer.png"><a class="coral" href="/pictures"> pictures</a><br>
+                <img class="smallIcons" src="/images/Fax Sender Information.png"><a class="coral" href="/code-credit"> influence</a><br>
+                <img class="smallIcons" src="/images/XPS Viewer.png"><a class="coral" href="/donations"> donations</a><a class="star" >*</a><br>
+            </div>
+        </div>
+
+        <!--socials popup-->
+        <div id="socials" class="popup non-scalable unclosable" data-top="20%" data-left="7.5%" data-width="175px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Connection Status.png">
+                <div style="text-align: left;">
+                    socials
+                </div>
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div style="padding: 5px;">
+                
+                <img class="smallIcons" src="/images/instagram.png">
+                    <a class="instagram" style="text-decoration:wavy underline; color: rgb(223, 155, 54)" href="https://www.instagram.com/wielkikutasbobra">instagram</a>
+                <br>
+
+                <img class="smallIcons" src="/images/youtube.png">
+                    <a class="youtube" style="text-decoration:wavy underline; color: red;" href="https://www.youtube.com/@kvvzzz">youtube</a>
+                <br>
+                
+                <img class="smallIcons" src="/images/twitch.png">
+                    <a class="twitch" style="text-decoration:wavy underline; color: rebeccaPurple;" href="https://www.twitch.tv/siurdupacyce">twitch</a>
+                <br>
+
+                <img class="smallIcons" src="/images/bluesky.png">
+                    <a class="bluesky" style="text-decoration:wavy underline; color: rgb(41, 115, 212);" href="https://bsky.app/profile/kvvz.xyz">bluesky</a>
+                <br>
+
+                <img class="smallIcons" src="/images/twitter.png">
+                    <a class="twitter" style="text-decoration:wavy underline; color: rgb(11, 7, 212);" href="https://x.com/kvvzie">twitter</a>
+                <br>
+
+                <img class="smallIcons" src="/images/github.png">
+                    <a class="github" style="text-decoration:wavy underline; color: rgb(32, 32, 32);" href="https://github.com/kvvzie">github</a>
+                <br>
+                
+            </div>
+        </div>
+
+        <!--chat poopup-->
+
+        <div id="chat" class="popup non-scalable " data-bottom="10%" data-left="86.5%" data-width="200px" data-height="325px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/Rename.png">
+                <div style="text-align: left;">
+                    chat
+                </div>
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div style="padding: 5px;">
+                <div id="chatMessages" style="height:225px; overflow-y: auto; background: #111111e5; color: #ffffff; padding: 5px; font-size: 12px;"></div>
+                <form id="chatForm">
+                    <input type="text" id="chatNick" placeholder="your name" style="width: 96%; font-size: 12px;" autocomplete="off">
+                    <input type="text" id="chatInput" placeholder="your message" style="width: 96%; font-size: 12px;" autocomplete="off">
+                    <button type="submit" style="display: none;"></button>
+                </form>
+            </div>
+        </div>
+
+        <!--spyify popup-->
+
+        <div id="spyify" class="popup scalable" data-top="40%" data-left="85%" data-width="125px" data-height="200px">
+            <div class="popupHeader">
+                <img class="popupIcon" src="/images/IE Media.png">
+                spyify
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()"><img class="closeButton" src="/images/Exit.png"></button>
+            </div>
+            <div class="popupContent">
+                what is kvvz listening to?
+                <iframe id="spotify-embed" style="border-radius:12px" src="" width="100%" height="70%" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="fast"></iframe>
+                <div id="message"></div>
+            </div>
+        </div>
+ 
+    <!--disc in the corner-->
+
+    <div class="image-container">
+        <img class="disc" src="/images/disc.png" width="50" height="50">
+        <span class="hover-text"></span>
+    </div>
+
+    <audio id="background-music">
+        <source id="audio-source" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const audioElement = document.getElementById("background-music");
+            const volumeSlider = document.getElementById("volumeSlider");
+
+            const savedVolume = localStorage.getItem("savedVolume");
+            const initialVolume = savedVolume !== null ? parseFloat(savedVolume) : 0.05;
+
+            audioElement.volume = initialVolume;
+            volumeSlider.value = initialVolume;
+
+            window.setVolume = function(value) {
+                audioElement.volume = value;
+                localStorage.setItem("savedVolume", value);
+            };
+        });
+    </script>
+    </b>
+</body>
+
+<!--action denied image-->
+
+<div id="actionDeniedMessage" class="action-denied hidden">
+    <img src="/images/accesisdenied.png">
+</div>    
+
+<!--invisible test button without it the popup system doesnt work-->
+<button style="opacity: 0;" id="createPopupButton">Create New Popup</button>
+
+</html>
