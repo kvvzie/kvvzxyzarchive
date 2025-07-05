@@ -1,0 +1,65 @@
+to do - the whole fucking website only home page is barelly finished 
+1*finish the website before 1.07.2025
+but now focus on the influence and interest pages
+after finishing that fix the pictures page and decide to keep/delete the donations page and what would be its replacement
+fix some js bugs 
+im sure i will be doing this step not even this year but its is what it is then maybe kill myself cause that was the main goal i set like a year ago
+but i will only die after i finish this piece of shit so i will live forever
+
+20.06.2025 - i forgot to write the changle log for like 3 days but im finishing working on the background video for the influence page and also yesterday (20 mins ago) i fixed the minimizing bug
+it was simple as shit(just a saving error) i was just programming it like a dumb person not checking for bugs and shit so i only have 1 mystery in my popup code left and its the
+invisible button to cerate a new popup that i fucking need for the popop system to work(but still i fixed 2/3 known bugs) after i fix that imma start working on the desktop system 
+but before that probbly gonna try to improve the taskbar system gonna replace text with icons and shit or have both at the same time i also thought about making "themes" after the desktop 
+system but that seems like a lot of work wih the amount of things hardcoded rn so that is for me in 2 years when i will be recoding the website not fixing it
+added icons befor the name in the taskbar
+took some archival pictures of the website mostly 1*"finished" features with my fuji camera
+configured apache to make spyify work not going in to detail couse it probbalby could be exploited its very bad code u can find it on github 
+finished the influence background video still need to be optimized it weights 50 mb and the rest weight like 8mb-16mb 
+15.06.2025 - added more shit to influence and upgraded login page
+fixed the reset popup function in a weird way but it works and i dont care
+stole some css from frutigeraeroarchive.org for popup headers and they look sick af now
+improved the look of the website
+14.06.2025 - added a new background image for the influence page and i wanted to say fuck u to the cock fucker guy in my chat
+added a "login page" in neocieties https://kvvz.neocities.org/ which redirects you to kvvz.xyz but with the username that u inputed saved in url so that i can save it to local storage
+and use it in the your name window in chat its very cool and shit
+25.05.2025 - its 10 min ago it was 24th but i sat to lighthouse optimazing again and i am getting so fucking hihg scores now its crazy home page : 98/93/89/92 3 times in a row 
+i fucked up the website idk how i just moved some shit like 30 lindes down and it doesnt work now
+ok after fixing the website (the popups were broken) the results are: 98/93/81/83 which is still pretty good and a big improvment in performance but seo and practices can still be improved
+the issue was that i thought that a line of code that has a invisible blackbackground was not being used for anything until clicking the disk 5 times but it it used for something
+and that something is the whole popup sysyem for some reason. its so fucked the popup system is so bad i have a invisible button on everypage for it to work and i thought that only
+it was the coconut.png of this website but it turns out a fucking another image is too. will try to fix today when i wake up or something 
+woke up 4 hours ago found the fix for the 1 random image holding the popup system together it was beacuse that that picture was loading before the script and inistializing the body
+and beacuse of that that the body was there the script was working in the firt place cause the body loaded before the script the fix was just to put the script at the bottom
+also got new lighthouse score 100/93/89/92 (desktop mobile is weird beacuse the lcp loads so fucking slow idk why) so big progress can improve best practices by getting rid of 
+error emssages in the console but its to mach fucking work interests page got 98/93/96/92 96 in practises cause there in no low res images (i do them intentionaly)
+removed the yt spire for the code it never worked but it was still in there
+optimized seo to 100 home page score: 100/93/89/100
+24.05.2025 - today doing some website optimizing with google lighthouse cause rpi has a worse connection to the router than my main pc so the website loads a lil bit slower 
+so i changeg every jpg/png to the worse format webp cause "its faster and better" but i dont belive that also started addint alt to pics but stopped mid way cause its to boring 
+also did http2 not 1.1 so its also better probably gonna fix image scaling next but i dont know how to 
+i ain't doin image scaling im to lazy i will come back to it in like 2 months
+probably gonna finish the page and upload it in june
+23.05.2025 - finally made 24/7 hosting on my raspberry pi 5
+shit i spend on it like 5 hours i was fucking reading those fucked up xampp files and trying to figure out what is going on
+i even have remote - shh extension on vsc so its like nothing has changed
+the spyify popup won't work for a while but its okay i don't really care rn
+also 2 days ago i posted on github the whole source of the website with the spotify popup thingy 
+i think its the best one of these made rn i know there is another one but its weird and uses cloudflare workers
+mine just has to files server.js and server.mjs (could be combined in to one but i was to lazy a year ago when i coded it)
+u input ur spotify dev application info then run server.mjs copy the token inpu in server.js file also u can change the /currently-playing to anything and /currenly-watching u should delet it doesnt work
+also go to script.js and copy the code from the very top to the #page loaded comment
+i will try to ddos me rn with a tool i wrote like a year ago
+21.05.2025 - archiving to github
+20.05.2025 - added some shit to the influence page
+18.05.2025 - changin code-credit to influence for better naming and shit type shit yk cause code-credit ts pmo type shit
+probably gonna take the code form interests and edit it slightli for the website look not gonna do pics and other shit rn
+man the interests page looks sick af im proud of my self
+im turning on photoshop rn cause people can't have nice png profile picture but some fuckass squares
+17.05.2025 22:41 - made a decision that i will not put hours in the change log from the next log
+17.05.2025 22:38 - change log created
+im gonna learn some shit about music so i can create sound tracks for every page and so i can have a reason to redo the music popup\
+i have ideas for pages but im just too lazy to do them
+also created robots.txt so google stop giving me errors when indexing
+also also put my website url in some random places on google maps like 30% got accepted
+
+1*finish means do everything i planned 2 months ago and is feasible
