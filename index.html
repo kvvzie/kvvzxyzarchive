@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home | kvvz.xyz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="icon" type="image/gif" href="/favicon.gif">
+    <link rel="canonical" href="https://kvvz.xyz/">
+    
+    <meta name="description" content="kvvz.xyz is a chaotic digital shrine hosted on a Raspberry Pi. Explore retro aesthetics, cursed projects, and my brain dumped into HTML.">
+    <meta property="og:title" content="home | kvvz.xyz">
+    <meta property="og:description" content="Retro vibes, weird personal projects, and a home server that's trying its best not to overheat.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kvvz.xyz/">
+    <meta property="og:image" content="https://kvvz.xyz/images/fckedupme.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="home | kvvz.xyz">
+    <meta name="twitter:description" content="A fucked up personal website hosted next to my bed. Full of dumb shit and good vibes.">
+    <meta name="twitter:image" content="https://kvvz.xyz/images/fckedupme.webp">
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://kvvz.xyz/",
+        "name": "kvvz.xyz",
+        "description": "Personal chaotic webpage of kvvz, running on a Raspberry Pi 5 with a cool retro Windows XP aesthetic.",
+        "publisher": {
+            "@type": "Person",
+            "name": "kvvz",
+            "url": "https://kvvz.xyz",
+            "sameAs": [
+            "https://www.instagram.com/wielkikutasbobra",
+            "https://www.youtube.com/@kvvzzz",
+            "https://www.twitch.tv/siurdupacyce",
+            "https://bsky.app/profile/kvvz.xyz",
+            "https://x.com/kvvzie",
+            "https://github.com/kvvzie"
+            ]
+        },
+        "inLanguage": "en",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://kvvz.xyz/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+        }
+    </script>
+
+    <link rel="stylesheet" href="/styles.css" />
+
+</head>
+
+
+<body onload="onPageLoaded()">
+
+    <img class="blackbackground" src="/images/black.webp" alt="full black picture">
+    <div id="background-container">
+        <video class="background" autoplay muted loop src="/videos/windowsxpgrayscaledrain.mp4" alt="background video" ></video>
+    </div>
+
+    <b>
+    <div class="container">
+
+        <!--main page popup-->
+
+        <div id="kvvzxyzpopup" class="popup unclosable draggable non-scalable" data-bottom="-33.2%" data-left="50%" data-width="63.75%" data-height="85%">
+            <div class="popupHeader home drain">
+                <img class="popupIcon" src="/images/My Computer.webp" alt="home site popup picture">
+                home
+                <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()" alt="popup exit button"><img class="closeButton" src="/images/Exit.webp" alt="popup exit button picture"></button>
+            </div>
+            
+            <div class="popupContent">
+                <div class="popup-background-container">
+                    <img class="popup-background-img" src="/images/background_main.webp" alt="home popup background image">
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <img class="sitelogo" src="/images/pidgeon.gif" width="275" height="125" alt="spinning pidgeon gif">
+                    </a>
+                    <h1 id="welcomeText" class="hidden">welcome on kvvz.xyz</h1><br>
+                </div>
+            
+            
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const textElement = document.getElementById("welcomeText");
+                        const text = textElement.innerHTML;
+                        textElement.innerHTML = "";
+                        textElement.classList.remove("hidden");
+                        
+                        let index = 0;
+        
+                        function typeWriter() {
+                            if (index < text.length) {
+                                textElement.innerHTML += text.charAt(index);
+                                index++;
+                                setTimeout(typeWriter, 100);
+                            }
+                        }
+        
+                        typeWriter();
+                    });
+                </script>
+
+                <div class="main">
+                    <b>
+                        <h2>about:</h2>
+                        <p>
+                            > this is kvvz's website
+                            <br>
+                            > the website was made to be displayed on 1920 x 1080 monitors
+                            <br>
+                            > the website is running on raspberry pi 5 8gb right next to my bed so please don't ddos it, it has a fan and i want to sleep
+                            <br>
+                            > please allow for playing videos and music in your browser for full experience
+                            <br>
+                            > almost all of the music playing on the website is copyrighted so i recommend muting the music while recording
+                            <br>
+                            > im soo fucking good at fixing my fucked up code 1 year after i wrote it
+                            <br>
+                            > if u find a major bug please report it in the chat box
+                            <br>
+                            > only this page is finished but still most are like 30% finished so u can still look at them
+                            <br>
+                            > there is a changelog at kvvz.xyz/changelog.txt i was to lazy to make a seperate webpage 
+                            <br>
+                            > im a KanYe fan for his music not opinions
+                        </p>
+                        <div class="emojis">ヾ(≧▽≦*)o</div><br>
+                        <br>
+                        <img class="image-with-glow" src="/images/fckedupme.webp" width="150" alt="a picture of me with laying in bed with i think a guitar and some stickers are on me">
+                    </b> 
+                </div>
+        
+            </div>
+         </div>
+
+
+    </div>
+
+            <!-- taskbar -->
+            <div id="taskbar" class="taskbar home drain">
+                <img class="taskbarlogo drain" src="/images/taskbarlogodrainv2.webp" alt="taskbar logo">
+            </div>
+        
+            <!--music popup-->
+            
+            <div id="music" class="popup scalable unclosable home drain" data-bottom="48.5%" data-left="85%" data-width="110px" data-height="190px">
+                <div class="popupHeader home drain">
+                    <img class="popupIcon" src="/images/Volume.webp" alt="music popup icon">
+                    music
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()" alt="popup exit button"><img class="closeButton" src="/images/Exit.webp" alt="popup exit button picture"></button>
+                </div>
+                <div class="volume-control">
+                    <label for="volumeSlider">Volume:</label>
+                    <input type="range" id="volumeSlider" min="0" max="1" step="0.025" onchange="setVolume(this.value)">
+                </div>
+            </div>
+        
+            <!--explorer popup-->
+
+            <div id="explorer" class="popup scalable unclosable home drain" data-bottom="60.5%" data-left="5.5%" data-width="175px" data-height="210px">
+                <div class="popupHeader home drain">
+                    <img class="popupIcon" src="/images/Explorer.webp" alt="explorer popup icon">
+                    <div style="text-align: left;">
+                        explorer
+                    </div>
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()" alt="popup exit button"><img class="closeButton" src="/images/Exit.webp" alt="popup exit button picture"></button>
+                </div>
+                <div style="padding: 5px;" class="explorer">
+                    <img class="smallIcons" src="/images/My Computer.webp" alt="home icon"><a class="coral" href="/"> home</a><span class="star" >*</span><br>
+                    <img class="smallIcons" src="/images/Internet Hearts.webp" alt="interests icon"><a class="coral" href="/interests"> interests</a><br>
+                    <img class="smallIcons" src="/images/Windows Picture and Fax Viewer.webp" alt="pictures icon"><a class="coral" href="/pictures"> pictures</a><br>
+                    <img class="smallIcons" src="/images/Fax Sender Information.webp" alt="influence icon"><a class="coral" href="/influence"> influence</a><br>
+                    <img class="smallIcons" src="/images/XPS Viewer.webp" alt="donations icon"><a class="coral" href="/donations"> donations</a><br>
+                </div>
+            </div>
+
+            <!--socials popup-->
+            <div id="socials" class="popup non-scalable unclosable home drain" data-bottom="70%" data-left="90%" data-width="125px" data-height="200px">
+                <div class="popupHeader home drain">
+                    <img class="popupIcon" src="/images/Connection Status.webp" alt="socials popup icon">
+                    <div style="text-align: left;">
+                        socials
+                    </div>
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()" alt="popup exit button"><img class="closeButton" src="/images/Exit.webp" alt="popup exit button picture"></button>
+                </div>
+                <div style="padding: 5px;">
+                    
+                    <img class="smallIcons" src="/images/instagram.webp" alt="instagram logo">
+                        <a class="instagram" style="text-decoration:wavy underline; color: rgb(223, 155, 54)" href="https://www.instagram.com/wielkikutasbobra">instagram</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/youtube.webp" alt="youtube logo">
+                        <a class="youtube" style="text-decoration:wavy underline; color: red;" href="https://www.youtube.com/@kvvzzz">youtube</a>
+                    <br>
+                    
+                    <img class="smallIcons" src="/images/twitch.webp" alt="twitch logo">
+                        <a class="twitch" style="text-decoration:wavy underline; color: rebeccaPurple;" href="https://www.twitch.tv/siurdupacyce">twitch</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/bluesky.webp" alt="bluesky logo">
+                        <a class="bluesky" style="text-decoration:wavy underline; color: rgb(41, 115, 212);" href="https://bsky.app/profile/kvvz.xyz">bluesky</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/twitter.webp" alt="twitter logo">
+                        <a class="twitter" style="text-decoration:wavy underline; color: rgb(11, 7, 212);" href="https://x.com/kvvzie">twitter</a>
+                    <br>
+
+                    <img class="smallIcons" src="/images/github.webp" alt="github logo">
+                        <a class="github" style="text-decoration:wavy underline; color: rgb(32, 32, 32);" href="https://github.com/kvvzie">github</a>
+                    <br>
+                    
+                </div>
+            </div>
+
+            <!--chat poopup-->
+
+            <div id="chat" class="popup non-scalable home drain" data-bottom="10%" data-left="86.5%" data-width="200px" data-height="330px">
+                <div class="popupHeader home drain">
+                    <img class="popupIcon" src="/images/Rename.webp" alt="chat popup icon">
+                    <div style="text-align: left;">
+                        chat
+                    </div>
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()" alt="popup exit button"><img class="closeButton" src="/images/Exit.webp" alt="popup exit button picture"></button>
+                </div>
+                <div style="padding: 5px;">
+                    <div id="chatMessages" style="height:225px; overflow-y: auto; background: #111111e5; color: #ffffff; padding: 5px; font-size: 12px;"></div>
+                    <form id="chatForm">
+                        <input type="text" id="chatNick" placeholder="your name" style="width: 96%; font-size: 12px;" autocomplete="off">
+                        <input type="text" id="chatInput" placeholder="your message" style="width: 96%; font-size: 12px;" autocomplete="off">
+                        <button type="submit" style="display: none;"></button>
+                    </form>
+                </div>
+            </div>
+        
+            <!--spyify popup-->
+
+            <div id="spyify" class="popup scalable home drain" data-bottom="20%" data-left="1.5%" data-width="290px" data-height="190px">
+                <div class="popupHeader home drain">
+                    <img class="popupIcon" src="/images/IE Media.webp" alt="spyify popup icon">
+                    spyify
+                    <button style="border: 0px;background-color: rgba(0, 0, 0, 0);" onclick="displayActionDenied()" alt="popup exit button"><img class="closeButton" src="/images/Exit.webp" alt="popup exit button picture"></button>
+                </div>
+                <div class="popupContent">
+                    what is kvvz listening to?
+                    <iframe id="spotify-embed" title="myFrame" style="border-radius:12px" src="" width="100%" height="70%" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="fast"></iframe>
+                    <div id="message"></div>
+                </div>
+            </div>
+         
+
+    <!--disc in the corner-->
+
+    <div class="image-container">
+        <img class="disc" src="/images/disc.webp" width="50" height="50" alt="spinning disc in the corner click 5 times for a surprise">
+        <span class="hover-text"></span>
+    </div>
+ 
+    <audio id="background-music">
+        <source id="audio-source" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const audioElement = document.getElementById("background-music");
+            const volumeSlider = document.getElementById("volumeSlider");
+
+            const savedVolume = localStorage.getItem("savedVolume");
+            const initialVolume = savedVolume !== null ? parseFloat(savedVolume) : 0.05;
+
+            audioElement.volume = initialVolume;
+            volumeSlider.value = initialVolume;
+
+            window.setVolume = function(value) {
+                audioElement.volume = value;
+                localStorage.setItem("savedVolume", value);
+            };
+        });
+    </script>
+    </b>
+</body>
+
+<!--all of the scripts and shit-->
+<!--need to be after the body cause the body needs to load befor the scripts or it doesnt work-->
+    <script src="/script.js"></script>
+    <script src="/color-thief.umd.js"></script>
+
+<!--action denied image-->
+
+<div id="actionDeniedMessage" class="action-denied hidden">
+    <img src="/images/accesisdenied.webp">
+</div>    
+
+<!--invisible test button without it the popup system doesnt work-->
+<button style="opacity: 0;" id="createPopupButton">Create New Popup</button>
+
+</html>
