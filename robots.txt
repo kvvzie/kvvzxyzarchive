@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kvvz.xyz/sitemap.xml
